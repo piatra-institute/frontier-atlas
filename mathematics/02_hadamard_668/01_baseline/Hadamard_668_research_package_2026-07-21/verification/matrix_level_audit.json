@@ -1,0 +1,18 @@
+{
+  "matrix_shape": [
+    668,
+    668
+  ],
+  "entries_are_signs": true,
+  "diagonal_all_668": true,
+  "max_abs_off_diagonal_gram": 8,
+  "nonzero_ordered_off_diagonal_gram_entries": 52104,
+  "off_diagonal_value_distribution": {
+    "-8": 6680,
+    "-4": 17368,
+    "4": 25384,
+    "8": 2672
+  },
+  "frobenius_defect_squared": 1282560,
+  "is_hadamard": false
+}

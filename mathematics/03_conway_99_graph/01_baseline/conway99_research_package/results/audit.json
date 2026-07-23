@@ -1,0 +1,574 @@
+{
+  "conway_model": {
+    "base_vertices": 14,
+    "degree": 14,
+    "full_vertices": 99,
+    "identities": {
+      "L_is_involution": true,
+      "MTM_identity": true,
+      "M_column_sums": true,
+      "M_row_sums_2": true,
+      "T_definition": true
+    },
+    "second_layer_vertices": 84
+  },
+  "full_case_encoding_counts": {
+    "and_constraints": 857556,
+    "b_vertices": 84,
+    "case_fix_constraints": 66,
+    "common_neighbor_equalities": 3486,
+    "incidence_equalities": 1176,
+    "m": 7,
+    "total_constraints": 862284,
+    "total_variables": 289338,
+    "x_variables": 3486,
+    "y_variables": 285852
+  },
+  "generated_at_utc": "2026-07-21T15:30:59.564047+00:00",
+  "normalization_audit": {
+    "case_count": 11,
+    "cases": [
+      {
+        "case": 1,
+        "orbit_size": 3840,
+        "partition": [
+          6
+        ],
+        "representative_matching": [
+          [
+            2,
+            13
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ]
+        ]
+      },
+      {
+        "case": 2,
+        "orbit_size": 2304,
+        "partition": [
+          5,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 3,
+        "orbit_size": 1440,
+        "partition": [
+          4,
+          2
+        ],
+        "representative_matching": [
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            11,
+            12
+          ]
+        ]
+      },
+      {
+        "case": 4,
+        "orbit_size": 720,
+        "partition": [
+          4,
+          1,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 5,
+        "orbit_size": 640,
+        "partition": [
+          3,
+          3
+        ],
+        "representative_matching": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ]
+        ]
+      },
+      {
+        "case": 6,
+        "orbit_size": 960,
+        "partition": [
+          3,
+          2,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 7,
+        "orbit_size": 160,
+        "partition": [
+          3,
+          1,
+          1,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 8,
+        "orbit_size": 120,
+        "partition": [
+          2,
+          2,
+          2
+        ],
+        "representative_matching": [
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            11,
+            12
+          ]
+        ]
+      },
+      {
+        "case": 9,
+        "orbit_size": 180,
+        "partition": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 10,
+        "orbit_size": 30,
+        "partition": [
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      {
+        "case": 11,
+        "orbit_size": 1,
+        "partition": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "representative_matching": [
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      }
+    ],
+    "labeled_matching_count": 10395,
+    "signature_counts": {
+      "1+1+1+1+1+1": 1,
+      "2+1+1+1+1": 30,
+      "2+2+1+1": 180,
+      "2+2+2": 120,
+      "3+1+1+1": 160,
+      "3+2+1": 960,
+      "3+3": 640,
+      "4+1+1": 720,
+      "4+2": 1440,
+      "5+1": 2304,
+      "6": 3840
+    }
+  },
+  "projector_audit": {
+    "baseline_diagonal": [
+      50
+    ],
+    "relation_construction_equals_line_graph_polynomial": true
+  },
+  "resolution_status": "UNRESOLVED",
+  "small_instance_audit": {
+    "m2_A": {
+      "checks": {
+        "adjacent_common_neighbors_1": true,
+        "binary": true,
+        "nonadjacent_common_neighbors_2": true,
+        "row_sums": true,
+        "shape": true,
+        "srg_matrix_equation": true,
+        "symmetric": true,
+        "zero_diagonal": true
+      },
+      "metadata": {
+        "m": 2,
+        "parameters": [
+          9,
+          4,
+          1,
+          2
+        ],
+        "sha256": "09fda646092fca40f392e99a0376d7ecd494b583a606c93f938ebcbf10a34ebb"
+      },
+      "valid": true
+    },
+    "m2_B": {
+      "checks": {
+        "BM_equals_MT": true,
+        "B_quadratic_equation": true,
+        "binary": true,
+        "reconstructed_A_valid": true,
+        "row_sums": true,
+        "shape": true,
+        "symmetric": true,
+        "zero_diagonal": true
+      },
+      "metadata": {
+        "m": 2,
+        "reconstructed_A": {
+          "checks": {
+            "adjacent_common_neighbors_1": true,
+            "binary": true,
+            "nonadjacent_common_neighbors_2": true,
+            "row_sums": true,
+            "shape": true,
+            "srg_matrix_equation": true,
+            "symmetric": true,
+            "zero_diagonal": true
+          },
+          "metadata": {
+            "m": 2,
+            "parameters": [
+              9,
+              4,
+              1,
+              2
+            ],
+            "sha256": "09fda646092fca40f392e99a0376d7ecd494b583a606c93f938ebcbf10a34ebb"
+          },
+          "valid": true
+        },
+        "sha256": "97628fbe5cbd5e1c54ff745eb8388cf260e274780950910d46f01e4853afa797",
+        "shape": [
+          4,
+          4
+        ]
+      },
+      "valid": true
+    },
+    "m2_spectral": {
+      "discriminant": 9,
+      "eigenvalues": [
+        "1",
+        "-2"
+      ],
+      "feasible": true,
+      "m": 2,
+      "multiplicities": [
+        "4",
+        "4"
+      ],
+      "parameters": [
+        9,
+        4,
+        1,
+        2
+      ],
+      "reason": "integral multiplicities"
+    },
+    "m3_spectral": {
+      "discriminant": 17,
+      "eigenvalues": [
+        "(-1+sqrt(17))/2",
+        "(-1-sqrt(17))/2"
+      ],
+      "feasible": false,
+      "forced_equal_multiplicity": 9,
+      "m": 3,
+      "parameters": [
+        19,
+        6,
+        1,
+        2
+      ],
+      "reason": "irrational conjugates force equal multiplicity, contradicting trace zero",
+      "trace_if_equal": -3
+    },
+    "m7_spectral": {
+      "discriminant": 49,
+      "eigenvalues": [
+        "3",
+        "-4"
+      ],
+      "feasible": true,
+      "m": 7,
+      "multiplicities": [
+        "54",
+        "44"
+      ],
+      "parameters": [
+        99,
+        14,
+        1,
+        2
+      ],
+      "reason": "integral multiplicities"
+    }
+  },
+  "software": {
+    "numpy": "2.3.5",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "statement": "No srg(99,14,1,2) adjacency matrix or complete nonexistence certificate is included."
+}

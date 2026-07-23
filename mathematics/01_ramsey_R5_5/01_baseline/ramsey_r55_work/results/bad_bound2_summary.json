@@ -1,0 +1,9 @@
+{
+  "bound": 2,
+  "graphs": 328,
+  "satisfiable_count": 2,
+  "satisfiable_indices": [
+    41,
+    255
+  ]
+}

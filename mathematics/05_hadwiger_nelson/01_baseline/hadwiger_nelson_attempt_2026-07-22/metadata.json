@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-22",
+  "scope": "Partial research result, not a determination of the unrestricted Hadwiger-Nelson number.",
+  "graph": {
+    "vertices": 510,
+    "edges": 2504,
+    "nonedges": 127291,
+    "coordinate_field": "Q(sqrt(3), sqrt(5), sqrt(11))"
+  },
+  "certificate": {
+    "proper_5_colorings": 84,
+    "all_nonedges_same_witnessed": true,
+    "all_nonedges_different_witnessed": true
+  },
+  "derived_theorem": "For every nonedge {u,v} of the supplied 510-vertex unit-distance graph, one supplied proper 5-coloring has c(u)=c(v), and another supplied proper 5-coloring has c(u)!=c(v).",
+  "novelty_status": "Derived and machine-certified in this run. No claim of literature novelty is made."
+}

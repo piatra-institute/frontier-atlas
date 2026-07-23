@@ -1,0 +1,116 @@
+# Frontier Atlas — monorepo .gitignore
+# Ignores OS junk, editor state, and language build artifacts.
+# NOTE: research deliverables — certificates, proof traces, verifier outputs,
+# exact data, SHA-256 manifests — are intentionally NOT ignored; they are the
+# auditable record. See the "Large artifacts" section at the bottom if the repo
+# needs slimming.
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.\#*
+\#*\#
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ---- C / C++ / native build ----
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+a.out
+*.app
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ---- Rust / Julia / Go (in case any solver harness uses them) ----
+target/
+Cargo.lock
+Manifest.toml
+*.jl.cov
+
+# ---- LaTeX build artifacts (keep the .pdf and .tex; drop the intermediates) ----
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+# (LaTeX also emits *.log and *.out — intentionally not globally ignored to
+#  avoid swallowing solver logs / verifier outputs; clean LaTeX temp dirs instead.)
+
+# ---- Secrets / local config ----
+*.local
+.envrc
+secrets.*
+credentials.*
+
+# ---- Heavy regenerable research artifacts (REGENERATE-ONLY policy) ----
+# See ARTIFACTS.md. Git versions the reproducible CORE — prompt, source, verifiers,
+# reports, and the SHA-256 manifests. Bulky DERIVED output (proof traces, big
+# instance/data dumps) is NOT tracked: it is regenerable from the committed source
+# and its integrity is pinned by the tracked manifests. This keeps the repo in the
+# tens-of-MB range regardless of how many tasks are worked. Keep the manifests.
+#
+# SAT / proof traces (e.g. Ramsey R(5,5): ~135 MB of these)
+*.drup
+*.drat
+*.lrat
+*.dratx
+# Binary numeric dumps (e.g. Hadwiger–Nelson Kempe samples)
+*.npy
+*.u8
+*.npz
+# Large generated exact-cover / SAT instance dumps (e.g. Moore-57 extension_instances)
+**/extension_instances/*.txt
+# Convention for future work: put any bulky (>~1 MB) regenerable output under one
+# of these directory names and it is ignored automatically.
+**/generated/
+**/_artifacts/
+**/_large/

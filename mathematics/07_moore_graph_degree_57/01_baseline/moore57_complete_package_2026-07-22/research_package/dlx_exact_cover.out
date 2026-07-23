@@ -1,0 +1,4 @@
+branch 0:
+satisfiable=false nodes=2416 max_depth=8
+branch 1:
+satisfiable=false nodes=2526 max_depth=11

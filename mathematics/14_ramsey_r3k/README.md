@@ -1,0 +1,9 @@
+# Ramsey R(3,10) and the R(3,k) ladder
+
+One task, one or more attempts. Each `NN_slug/` subfolder holds a self-contained attempt: its `prompt.md` plus every artifact generated from it (scripts, certificates, chat transcript, research package).
+
+## Prompts / attempts
+
+| folder | approach | status |
+|--------|----------|--------|
+| `01_baseline` | `[search]` | not started |

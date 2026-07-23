@@ -1,0 +1,4 @@
+VERIFIED C++
+  proper colorings: 84
+  edges checked per coloring: 2504
+  pair-flexible nonedges: 127291

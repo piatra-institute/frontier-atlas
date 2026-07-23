@@ -1,0 +1,25 @@
+{
+  "complete_resolution": false,
+  "target": {
+    "strongly_regular_parameters": [3250, 57, 0, 1],
+    "adjacency_equation": "A^2 = 56 I - A + J"
+  },
+  "full_graph_spectrum": {"57": 1, "7": 1729, "-8": 1520},
+  "rooted_cover": {
+    "type": "(57,56,1) distance-regular antipodal cover of K_57",
+    "intersection_array": "{56,55,1;1,1,56}",
+    "spectrum": {"56": 1, "7": 1672, "-1": 56, "-8": 1463}
+  },
+  "compressed_B": {
+    "order": 3136,
+    "spectrum": {"56": 1, "8": 1617, "0": 110, "-7": 1408},
+    "equations": [
+      "B^2-B = 56I+J-P-Q",
+      "BP=PB=J",
+      "BQ=QB=J"
+    ]
+  },
+  "proved_obstruction": "No semiregular group of matching derangements, cyclic or nonabelian, can produce the graph.",
+  "representation_constraint": "Every nontrivial irreducible constituent of the generated 56-point permutation module has degree divisible by 5.",
+  "remaining_gap": "Construct or exclude a genuinely nonregular compatible matching system satisfying the exact block equations."
+}

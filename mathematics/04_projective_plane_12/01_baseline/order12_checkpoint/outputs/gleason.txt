@@ -1,0 +1,4 @@
+PASS
+A nonnegative integral formal Type-III Hamming weight enumerator exists.
+Therefore ordinary one-variable Gleason constraints alone do not obstruct the plane.
+wrote /mnt/data/order12_checkpoint/outputs/gleason_formal_weight_enumerator.json

@@ -1,0 +1,122 @@
+[
+  {
+    "n": 42,
+    "success": true,
+    "objective": "min_edges",
+    "m": 357,
+    "T": 1106,
+    "Tbar": 1806,
+    "degree_counts": {
+      "17": 42
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 42,
+    "success": true,
+    "objective": "max_edges",
+    "m": 504,
+    "T": 1806,
+    "Tbar": 1106,
+    "degree_counts": {
+      "24": 42
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 43,
+    "success": true,
+    "objective": "min_edges",
+    "m": 387,
+    "T": 1161,
+    "Tbar": 1892,
+    "degree_counts": {
+      "18": 43
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 43,
+    "success": true,
+    "objective": "max_edges",
+    "m": 516,
+    "T": 1892,
+    "Tbar": 1161,
+    "degree_counts": {
+      "24": 43
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 44,
+    "success": true,
+    "objective": "min_edges",
+    "m": 418,
+    "T": 1276,
+    "Tbar": 1936,
+    "degree_counts": {
+      "19": 44
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 44,
+    "success": true,
+    "objective": "max_edges",
+    "m": 528,
+    "T": 1936,
+    "Tbar": 1276,
+    "degree_counts": {
+      "24": 44
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 45,
+    "success": true,
+    "objective": "min_edges",
+    "m": 450,
+    "T": 1410,
+    "Tbar": 1980,
+    "degree_counts": {
+      "20": 45
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 45,
+    "success": true,
+    "objective": "max_edges",
+    "m": 540,
+    "T": 1890,
+    "Tbar": 1500,
+    "degree_counts": {
+      "24": 45
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 46,
+    "success": true,
+    "objective": "min_edges",
+    "m": 483,
+    "T": 1564,
+    "Tbar": 2024,
+    "degree_counts": {
+      "21": 46
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "n": 46,
+    "success": true,
+    "objective": "max_edges",
+    "m": 552,
+    "T": 1948,
+    "Tbar": 1640,
+    "degree_counts": {
+      "24": 46
+    },
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  }
+]

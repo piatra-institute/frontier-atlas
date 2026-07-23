@@ -1,0 +1,15 @@
+{
+  "and_constraints": 36,
+  "b_vertices": 4,
+  "case_fix_constraints": 1,
+  "common_neighbor_equalities": 6,
+  "incidence_equalities": 16,
+  "m": 2,
+  "partition": [
+    1
+  ],
+  "total_constraints": 59,
+  "total_variables": 18,
+  "x_variables": 6,
+  "y_variables": 12
+}

@@ -1,0 +1,13 @@
+{
+  "problem": "11-dimensional kissing number",
+  "complete_resolution_obtained": false,
+  "public_range_on_2026-07-22": [604, 868],
+  "exact_lower_bound_verified": 604,
+  "unrestricted_upper_bound_verified": null,
+  "strongest_new_verified_statement": {
+    "statement": "For the reconstructed antipodal 604-point norm-2 code C, max{||y||^2 : |<v,y>| <= 2 for every v in C} = 3.",
+    "consequence": "The fixed 604-point code is geometrically saturated; no 605th norm-2 kissing vector can be adjoined.",
+    "does_not_imply": "tau_11 <= 604"
+  },
+  "construction_sha256": "3dc8aba270c31474cd5fb4ba3f9733311b35a5dd23a827c3f7005661c41701f7"
+}

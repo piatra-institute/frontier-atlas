@@ -1,0 +1,6 @@
+VERIFIED
+  vertices: 510; exact unit pairs/edges: 2504
+  exact phi pairs: [(212, 490), (218, 491), (224, 489)]
+  exact 1/phi pairs: [(212, 491), (218, 489), (224, 490)]
+  certificate colorings: 84
+  conclusion: every one of the 127291 nonedges is same-colored in at least one proper 5-coloring and differently colored in at least one other.

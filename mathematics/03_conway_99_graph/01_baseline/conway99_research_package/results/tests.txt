@@ -1,0 +1,19 @@
+test_conway_dimensions_and_identities (test_model.ModelTests.test_conway_dimensions_and_identities) ... ok
+test_m2_block_reconstruction (test_model.ModelTests.test_m2_block_reconstruction) ... ok
+test_counts_for_conway_case (test_opb.OpbTests.test_counts_for_conway_case) ... ok
+test_m2_generated_model_is_satisfied_by_exact_solution (test_opb.OpbTests.test_m2_generated_model_is_satisfied_by_exact_solution) ... ok
+test_exactly_eleven_signatures_cover_all_matchings (test_orbits.OrbitTests.test_exactly_eleven_signatures_cover_all_matchings) ... ok
+test_group_orbits_match_signature_classes (test_orbits.OrbitTests.test_group_orbits_match_signature_classes) ... ok
+test_manifest_is_deterministic (test_orbits.OrbitTests.test_manifest_is_deterministic) ... ok
+test_representatives_have_declared_signatures (test_orbits.OrbitTests.test_representatives_have_declared_signatures) ... ok
+test_baseline_diagonal_and_relation_values (test_projector.ProjectorTests.test_baseline_diagonal_and_relation_values) ... ok
+test_binary_lift_round_trip (test_projector.ProjectorTests.test_binary_lift_round_trip) ... ok
+test_two_independent_baseline_constructions_agree (test_projector.ProjectorTests.test_two_independent_baseline_constructions_agree) ... ok
+test_m2_has_one_labeled_reduced_solution (test_small_instances.SmallInstanceTests.test_m2_has_one_labeled_reduced_solution) ... ok
+test_m3_fails_elementary_spectral_feasibility (test_small_instances.SmallInstanceTests.test_m3_fails_elementary_spectral_feasibility) ... ok
+test_m7_passes_elementary_spectral_feasibility (test_small_instances.SmallInstanceTests.test_m7_passes_elementary_spectral_feasibility) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.143s
+
+OK

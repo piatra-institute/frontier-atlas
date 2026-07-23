@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "adjacent_common_neighbors_1": true,
+    "binary": true,
+    "nonadjacent_common_neighbors_2": true,
+    "row_sums": true,
+    "shape": true,
+    "srg_matrix_equation": true,
+    "symmetric": true,
+    "zero_diagonal": true
+  },
+  "metadata": {
+    "m": 2,
+    "parameters": [
+      9,
+      4,
+      1,
+      2
+    ],
+    "sha256": "09fda646092fca40f392e99a0376d7ecd494b583a606c93f938ebcbf10a34ebb"
+  },
+  "valid": true
+}

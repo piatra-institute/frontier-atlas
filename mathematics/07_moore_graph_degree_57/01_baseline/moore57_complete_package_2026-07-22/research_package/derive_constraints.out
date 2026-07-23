@@ -1,0 +1,13 @@
+Full graph spectrum: [Spectrum(eigenvalue=57, multiplicity=1), Spectrum(eigenvalue=7, multiplicity=1729), Spectrum(eigenvalue=-8, multiplicity=1520)]
+Rooted distance-two graph spectrum: [Spectrum(eigenvalue=56, multiplicity=1), Spectrum(eigenvalue=7, multiplicity=1672), Spectrum(eigenvalue=-1, multiplicity=56), Spectrum(eigenvalue=-8, multiplicity=1463)]
+Compressed B spectrum: [Spectrum(eigenvalue=56, multiplicity=1), Spectrum(eigenvalue=8, multiplicity=1617), Spectrum(eigenvalue=0, multiplicity=110), Spectrum(eigenvalue=-7, multiplicity=1408)]
+Linear-character multiplicities: 152/5 133/5
+Contradiction: a one-dimensional nontrivial character is impossible.
+
+General constituent divisibility test (degrees 1..60):
+Allowed degrees: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+Therefore every nontrivial constituent of the 56-point permutation module must have degree divisible by 5.
+
+Possible proper block counts in degree 56: [2, 4, 7, 8, 14, 28]
+Block-constant zero-sum dimensions: [1, 3, 6, 7, 13, 27]
+Therefore the generated transitive matching group must be primitive.

@@ -1,0 +1,4 @@
+networkx>=3.5
+python-sat>=1.8.dev0
+numpy>=2.0
+scipy>=1.15

@@ -1,0 +1,11 @@
+Conway-99 reconstructed research package audit
+===============================================
+Resolution status: UNRESOLVED
+No srg(99,14,1,2) adjacency matrix or complete nonexistence certificate is included.
+
+Fixed-vertex model identities all pass: True
+m=2 reduced/full verifier pass: True / True
+11-case matching cover total: 10395
+Projector baseline independent constructions agree: True
+Full normalized OPB variables: 289338
+Full normalized OPB constraints: 862284

@@ -1,0 +1,12 @@
+{
+  "certificate_orbit_terms": 9,
+  "constraints": 46,
+  "elapsed_seconds": 0.03232,
+  "expanded_nonnegative_products": 360,
+  "floating_point_used": false,
+  "group_size": 48,
+  "identity": "3-sum(p_i^2) = sum positive_coefficients * products(nonnegative_constraints)",
+  "maximum_degree": 3,
+  "python": "3.13.5",
+  "status": "PASS"
+}

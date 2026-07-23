@@ -1,0 +1,4 @@
+PASS
+order=5 points=31 lines=31 incidences_per_row=6
+sha256=865bf01035e06c77ce31b140d1aaca499c9c8c48a845c1d99ed25098a27d670c
+verified: binary entries, row/column sums, all line-pair and point-pair intersections

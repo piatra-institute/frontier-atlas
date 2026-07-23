@@ -1,0 +1,24 @@
+{
+  "constraint": "each of the four length-167 sequences retains its row sum",
+  "base_full_score": 1920,
+  "hamming_radius_checked": 4,
+  "hamming_distance_2": {
+    "states_checked": 27722,
+    "best_full_score": 2368,
+    "improving_state_exists": false
+  },
+  "hamming_distance_4_two_different_rows": {
+    "states_checked": 288189040,
+    "best_full_score": 2688,
+    "improving_state_exists": false
+  },
+  "hamming_distance_4_one_row": {
+    "states_checked": 46882338,
+    "best_full_score": 2048,
+    "improving_state_exists": false
+  },
+  "total_nontrivial_states_checked": 335099100,
+  "strict_local_minimum_through_hamming_radius_4": true,
+  "best_full_score_in_radius_excluding_center": 2048,
+  "score_gap_to_best_neighbor_in_radius": 128
+}

@@ -1,0 +1,4 @@
+PASS
+The exact rational MacWilliams relaxation is feasible.
+This rules out a claimed contradiction based only on those linear constraints.
+It does NOT prove that an integral weight enumerator or a code exists.

@@ -1,0 +1,11 @@
+PSL(3,4), degree-56 rank-3 action
+order: 20160
+derangement conjugacy classes:
+0 size 1260 cycle (4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 2, 2, 2) chi20 0 chi35 -1
+1 size 1260 cycle (4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 2, 2, 2) chi20 0 chi35 -1
+2 size 2880 cycle (7, 7, 7, 7, 7, 7, 7, 7) chi20 -1 chi35 0
+3 size 2880 cycle (7, 7, 7, 7, 7, 7, 7, 7) chi20 -1 chi35 0
+trace equations force exactly 35 order-4 and 20 order-7 elements
+branch 0: fixed class size=1260, candidates=3400, sha256=3bc882610878c4de5b09df5c1476014c2cf242f1ed3479760104583400af4b84, satisfiable=False, nodes=2416, max_depth=8
+branch 1: fixed class size=1260, candidates=3400, sha256=73e708b0edfbc4edb8a4a2907d80c400304913be7900b1efd2df6c2ad4a69dbe, satisfiable=False, nodes=2526, max_depth=11
+CONCLUSION: PSL(3,4) contains no sharply transitive set in this action.

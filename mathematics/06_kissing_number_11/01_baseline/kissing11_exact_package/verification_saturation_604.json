@@ -1,0 +1,71 @@
+{
+  "all_feasible_chambers_mapped_to_certificate": true,
+  "certified_representatives": {
+    "-+---+": {
+      "degree": 4,
+      "expanded_products": 2760,
+      "orbit_size": 2,
+      "orbit_terms": 61,
+      "polynomial_terms_checked": 12
+    },
+    "-+----": {
+      "degree": 3,
+      "expanded_products": 570,
+      "orbit_size": 6,
+      "orbit_terms": 41,
+      "polynomial_terms_checked": 12
+    },
+    "----+-": {
+      "degree": 3,
+      "expanded_products": 534,
+      "orbit_size": 6,
+      "orbit_terms": 42,
+      "polynomial_terms_checked": 12
+    },
+    "-----+": {
+      "degree": 3,
+      "expanded_products": 570,
+      "orbit_size": 6,
+      "orbit_terms": 41,
+      "polynomial_terms_checked": 12
+    },
+    "------": {
+      "degree": 3,
+      "expanded_products": 480,
+      "orbit_size": 12,
+      "orbit_terms": 64,
+      "polynomial_terms_checked": 12
+    }
+  },
+  "conclusion": "No norm-2 vector can be adjoined to the fixed 604-point norm-2 code; the code is saturated.",
+  "construction_sha256": "3dc8aba270c31474cd5fb4ba3f9733311b35a5dd23a827c3f7005661c41701f7",
+  "elapsed_seconds": 19.893664,
+  "exact_arithmetic": "Q(sqrt(2)) using fractions; no floating point in mathematical checks",
+  "feasible_chamber_orbits": 5,
+  "global_constraint_symmetries": 96,
+  "gordan_infeasibility_certificates": 32,
+  "hyperplane_sign_patterns": 64,
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "polar_squared_radius_exact": 3,
+  "polar_squared_radius_upper_bound": 3,
+  "polar_squared_radius_witness": {
+    "coordinates": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "squared_norm": 3
+  },
+  "python": "3.13.5",
+  "status": "PASS",
+  "strictly_feasible_chambers": 32,
+  "universal_kissing_upper_bound_proved": false
+}

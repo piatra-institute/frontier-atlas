@@ -1,0 +1,182 @@
+{
+  "graphs": [
+    {
+      "graph": 1,
+      "vertices": 43,
+      "edges": 448,
+      "degree_counts": {
+        "20": 20,
+        "21": 10,
+        "22": 13
+      },
+      "bad5": [
+        {
+          "vertices": [
+            0,
+            2,
+            28,
+            29,
+            38
+          ],
+          "color": "independent"
+        },
+        {
+          "vertices": [
+            0,
+            11,
+            28,
+            29,
+            38
+          ],
+          "color": "independent"
+        }
+      ],
+      "bad5_intersection": [
+        0,
+        28,
+        29,
+        38
+      ],
+      "good_deletions": [
+        0,
+        28,
+        29,
+        38
+      ],
+      "good_deletion_matches": [
+        {
+          "deleted_vertex": 0,
+          "edges": 428,
+          "matches": [
+            {
+              "known_index": 255,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 28,
+          "edges": 427,
+          "matches": [
+            {
+              "known_index": 41,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 29,
+          "edges": 427,
+          "matches": [
+            {
+              "known_index": 41,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 38,
+          "edges": 428,
+          "matches": [
+            {
+              "known_index": 255,
+              "complement": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "graph": 2,
+      "vertices": 43,
+      "edges": 449,
+      "degree_counts": {
+        "20": 19,
+        "21": 10,
+        "22": 14
+      },
+      "bad5": [
+        {
+          "vertices": [
+            0,
+            15,
+            22,
+            28,
+            39
+          ],
+          "color": "clique"
+        },
+        {
+          "vertices": [
+            0,
+            15,
+            24,
+            28,
+            39
+          ],
+          "color": "clique"
+        }
+      ],
+      "bad5_intersection": [
+        0,
+        15,
+        28,
+        39
+      ],
+      "good_deletions": [
+        0,
+        15,
+        28,
+        39
+      ],
+      "good_deletion_matches": [
+        {
+          "deleted_vertex": 0,
+          "edges": 428,
+          "matches": [
+            {
+              "known_index": 255,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 15,
+          "edges": 428,
+          "matches": [
+            {
+              "known_index": 255,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 28,
+          "edges": 427,
+          "matches": [
+            {
+              "known_index": 41,
+              "complement": false
+            }
+          ]
+        },
+        {
+          "deleted_vertex": 39,
+          "edges": 427,
+          "matches": [
+            {
+              "known_index": 41,
+              "complement": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "edge_flips_between_graphs": [
+    [
+      0,
+      28
+    ]
+  ]
+}

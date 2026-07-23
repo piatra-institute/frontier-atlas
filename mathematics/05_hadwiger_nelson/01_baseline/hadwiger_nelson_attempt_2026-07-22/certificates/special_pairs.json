@@ -1,0 +1,32 @@
+{
+  "phi_squared": "(3 + sqrt(5))/2",
+  "inverse_phi_squared": "(3 - sqrt(5))/2",
+  "distance_phi_pairs_1_based": [
+    [
+      212,
+      490
+    ],
+    [
+      218,
+      491
+    ],
+    [
+      224,
+      489
+    ]
+  ],
+  "distance_inverse_phi_pairs_1_based": [
+    [
+      212,
+      491
+    ],
+    [
+      218,
+      489
+    ],
+    [
+      224,
+      490
+    ]
+  ]
+}

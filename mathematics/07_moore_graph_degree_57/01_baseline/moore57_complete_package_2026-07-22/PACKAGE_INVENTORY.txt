@@ -1,0 +1,42 @@
+        5073  NEXT_STEPS.md                                                                               Unicode text, UTF-8 text
+        2405  PACKAGE_README.md                                                                           Unicode text, UTF-8 text
+     2397994  extension_instances/g2_A0.txt                                                               ASCII text
+     2311446  extension_instances/g2_A1.txt                                                               ASCII text
+     1987122  extension_instances/g3_A0.txt                                                               ASCII text
+     1992264  extension_instances/g3_A1.txt                                                               ASCII text
+     2931409  extension_instances/g4_A0.txt                                                               ASCII text
+     2931417  extension_instances/g4_A1.txt                                                               ASCII text
+     2691947  extension_instances/g4_A2.txt                                                               ASCII text
+     2691962  extension_instances/g4_A3.txt                                                               ASCII text
+     5538449  extension_instances/g5_A0.txt                                                               ASCII text
+     5497057  extension_instances/g5_A1.txt                                                               ASCII text
+     5307565  extension_instances/g5_A2.txt                                                               ASCII text
+     5267084  extension_instances/g5_A3.txt                                                               ASCII text
+        4944  extension_instances/metadata.json                                                           JSON text data
+        4488  extension_instances/metadata_portable.json                                                  JSON text data
+      256307  original_prompt/07_moore_graph_degree_57.pdf                                                PDF document, version 1.7
+         121  research_package/ENVIRONMENT.txt                                                            ASCII text
+         856  research_package/MANIFEST.prebundle.sha256                                                  ASCII text
+       50415  research_package/Moore57_verified_report.pdf                                                PDF document, version 1.5 (zip deflate encoded)
+        2386  research_package/README.md                                                                  ASCII text
+       17151  research_package/REPORT.md                                                                  ASCII text
+         995  research_package/RESULTS.json                                                               JSON text data
+         392  research_package/THIRD_PARTY_NOTICES.md                                                     ASCII text
+       10742  research_package/__pycache__/group_tools.cpython-313.pyc                                    Byte-compiled Python module for CPython 3.13 (magic: 3571), timestamp-based, .py timestamp: Wed Jul 22 09:59:42 2026 UTC, .py size: 6800 bytes
+        1088  research_package/classify_primitive_groups.out                                              ASCII text
+        3697  research_package/classify_primitive_groups.py                                               Python script, ASCII text executable
+        1084  research_package/derive_constraints.out                                                     ASCII text
+        3472  research_package/derive_constraints.py                                                      Python script, ASCII text executable
+        4400  research_package/dlx_exact_cover.cpp                                                        C++ source, ASCII text
+         103  research_package/dlx_exact_cover.out                                                        ASCII text
+        6800  research_package/group_tools.py                                                             Python script, ASCII text executable
+        3477  research_package/primgrp_degree56_excerpt.g                                                 ASCII text
+      889038  research_package/psl_exactcover_branch_0.txt                                                ASCII text
+      889006  research_package/psl_exactcover_branch_1.txt                                                ASCII text
+         836  research_package/psl_sharp_exact_cover.out                                                  ASCII text
+        7202  research_package/psl_sharp_exact_cover.py                                                   Python script, ASCII text executable
+        2535  research_package/regular_group_obstruction.md                                               ASCII text
+         365  research_package/verify_known_moore.out                                                     ASCII text
+        4626  research_package/verify_known_moore.py                                                      Python script, ASCII text executable
+         536  scripts/run_extension_branches.sh                                                           Bourne-Again shell script, ASCII text executable
+         803  scripts/verify_bundle.sh                                                                    Bourne-Again shell script, ASCII text executable

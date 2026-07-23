@@ -1,0 +1,44 @@
+{
+  "name": "Equal-volume flat A15 periodic Laguerre honeycomb",
+  "status": "Exact polyhedral competitor; not the curved relaxed Weaire-Phelan foam",
+  "normalization": {
+    "cell_volume": 1,
+    "functional": "mean full boundary area per unit-volume cell",
+    "interface_counting": "each physical film contributes to both adjacent cell boundaries"
+  },
+  "torus": {
+    "period_vectors": [[2, 0, 0], [0, 2, 0], [0, 0, 2]],
+    "volume": 8,
+    "number_of_cells": 8
+  },
+  "laguerre_convention": "Cell i consists of points x minimizing |x-p_i|^2-w_i over all periodic site images.",
+  "sites": [
+    {"point": [0, 0, 0], "type": "A", "weight": "0"},
+    {"point": [1, 1, 1], "type": "A", "weight": "0"},
+    {"point": [0.5, 0, 1], "type": "B", "weight": "5/4-cuberoot(2)"},
+    {"point": [1.5, 0, 1], "type": "B", "weight": "5/4-cuberoot(2)"},
+    {"point": [0, 1, 0.5], "type": "B", "weight": "5/4-cuberoot(2)"},
+    {"point": [0, 1, 1.5], "type": "B", "weight": "5/4-cuberoot(2)"},
+    {"point": [1, 0.5, 0], "type": "B", "weight": "5/4-cuberoot(2)"},
+    {"point": [1, 1.5, 0], "type": "B", "weight": "5/4-cuberoot(2)"}
+  ],
+  "weight_decimal": -0.00992104989487316476721060727823,
+  "cell_orbits": {
+    "A": {"count": 2, "faces": 12, "volume": "1"},
+    "B": {"count": 6, "faces": 14, "volume": "1"}
+  },
+  "volume_certificate": {
+    "V_A(delta)": "125/128-(75/32)delta+(15/8)delta^2-(1/2)delta^3",
+    "V_B(delta)": "129/128+(25/32)delta-(5/8)delta^2+(1/6)delta^3",
+    "equal_volume_polynomial": "64 delta^3-240 delta^2+300 delta+3=0",
+    "factorization": "64(delta-5/4)^3+128=0",
+    "solution": "delta=5/4-cuberoot(2)"
+  },
+  "face_area_orbits": {
+    "A-B pentagon": "sqrt(5)*cuberoot(4)/8",
+    "B-B axial hexagon": "1-cuberoot(4)/4",
+    "B-B nonaxial pentagon": "sqrt(6)*(3-cuberoot(4))/12"
+  },
+  "mean_full_boundary_area_exact": "3/2+(3*sqrt(6))/2+(6*sqrt(5)-4*sqrt(6)-3)/(2*cuberoot(16))",
+  "mean_full_boundary_area_decimal": 5.29695041726370448224105348429
+}

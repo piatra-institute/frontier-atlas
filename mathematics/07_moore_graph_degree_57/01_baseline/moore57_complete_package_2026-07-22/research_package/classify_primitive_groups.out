@@ -1,0 +1,21 @@
+Complete PrimGrp degree-56 list: 9 permutation-isomorphism classes
+index | group | order | subdegrees | derangements | module test
+------|-------|-------|------------|--------------|------------
+    1 | PSL(3, 4) | 20160 | [10, 45] | 8280 | 20,35: pass
+    2 | PSL(3, 4).2_3 | 40320 | [10, 45] | 19080 | 20,35: pass
+    3 | PSL(3, 4).2_1 | 40320 | [10, 45] | 17520 | 20,35: pass
+    4 | PSL(3, 4).2_2 | 40320 | [10, 45] | 20880 | 20,35: pass
+    5 | PSL(3, 4).2^2 | 80640 | [10, 45] | 40920 | 20,35: pass
+    6 | Alt(8) | 20160 | [10, 15, 30] | 10485 | 7,20,28: fail
+    7 | Sym(8) | 40320 | [10, 15, 30] | 20145 | 7,20,28: fail
+    8 | Alt(56) | Factorial(56)/2 | [55] | not enumerated | 55: pass
+    9 | Sym(56) | Factorial(56) | [55] | not enumerated | 55: pass
+
+Primitivity check:
+proper numbers of blocks: [2, 4, 7, 8, 14, 28]
+dimensions of block-constant zero-sum modules: [1, 3, 6, 7, 13, 27]
+none is divisible by 5, so an admissible generated group cannot be imprimitive
+
+After the 5-divisibility test:
+survive: groups 1-5, 8, 9
+excluded: groups 6-7 (Alt(8), Sym(8) on 3-subsets)

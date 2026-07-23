@@ -1,0 +1,11 @@
+{
+  "representatives": 328,
+  "unsat_proofs": 326,
+  "sat_indices": [
+    41,
+    255
+  ],
+  "rup_additions_replayed": 1684031,
+  "deletion_lines_ignored": 1730537,
+  "unlabeled_two_bad_classes": 2
+}

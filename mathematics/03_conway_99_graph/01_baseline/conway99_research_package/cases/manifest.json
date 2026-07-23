@@ -1,0 +1,395 @@
+{
+  "case_count": 11,
+  "cases": [
+    {
+      "case": 1,
+      "orbit_size": 3840,
+      "partition": [
+        6
+      ],
+      "representative_matching": [
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "case": 2,
+      "orbit_size": 2304,
+      "partition": [
+        5,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 3,
+      "orbit_size": 1440,
+      "partition": [
+        4,
+        2
+      ],
+      "representative_matching": [
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "case": 4,
+      "orbit_size": 720,
+      "partition": [
+        4,
+        1,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 5,
+      "orbit_size": 640,
+      "partition": [
+        3,
+        3
+      ],
+      "representative_matching": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "case": 6,
+      "orbit_size": 960,
+      "partition": [
+        3,
+        2,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 7,
+      "orbit_size": 160,
+      "partition": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 8,
+      "orbit_size": 120,
+      "partition": [
+        2,
+        2,
+        2
+      ],
+      "representative_matching": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "case": 9,
+      "orbit_size": 180,
+      "partition": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 10,
+      "orbit_size": 30,
+      "partition": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "case": 11,
+      "orbit_size": 1,
+      "partition": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "representative_matching": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    }
+  ],
+  "normalization": "perfect matching on S_0 modulo C2 wr S6",
+  "problem": "srg(99,14,1,2)",
+  "total_labeled_matchings": 10395
+}

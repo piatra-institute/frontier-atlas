@@ -1,0 +1,13 @@
+{
+  "known_42_representatives": 328,
+  "known_42_plus_complements": 656,
+  "one_vertex_extensions_found": 0,
+  "extensions_with_at_most_one_bad_K5": 0,
+  "representatives_with_at_most_two_bad_K5": [
+    41,
+    255
+  ],
+  "two_bad_unlabeled_extension_classes": 2,
+  "near_miss_certified_exclusion_radius": 5,
+  "status": "Does not determine R(5,5); the known 42-vertex catalogue is incomplete."
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "radius": 1,
+    "variables": 1805,
+    "clauses": 16478,
+    "proof_file": "radius_1.drup",
+    "proof_additions": 21,
+    "proof_deletions_ignored": 0,
+    "proof_sha256": "c7a1687ebe98093fa36450bc211512a5fe4f21ad6eaa848114b58e60328d38d0",
+    "histogram": [
+      2,
+      6610,
+      34599,
+      110219,
+      215554,
+      255255,
+      198808,
+      101693,
+      32697,
+      7161,
+      0
+    ],
+    "independent_replay": "passed"
+  },
+  {
+    "radius": 2,
+    "variables": 2707,
+    "clauses": 85576,
+    "proof_file": "radius_2.drup",
+    "proof_additions": 257,
+    "proof_deletions_ignored": 0,
+    "proof_sha256": "e2623da597e0c7cfc7112510c37bffe0bfbf42ff8eb13ca6c07ba8e2f06a07b7",
+    "histogram": [
+      2,
+      6610,
+      34599,
+      110219,
+      215554,
+      255255,
+      198808,
+      101693,
+      32697,
+      7161,
+      0
+    ],
+    "independent_replay": "passed"
+  },
+  {
+    "radius": 3,
+    "variables": 3609,
+    "clauses": 299290,
+    "proof_file": "radius_3.drup",
+    "proof_additions": 1210,
+    "proof_deletions_ignored": 0,
+    "proof_sha256": "590dc15e3126262406a1f2fc9f8e2aa342ce030be8436bdf939d8f4e19eae699",
+    "histogram": [
+      2,
+      6610,
+      34599,
+      110219,
+      215554,
+      255255,
+      198808,
+      101693,
+      32697,
+      7161,
+      0
+    ],
+    "independent_replay": "passed"
+  },
+  {
+    "radius": 4,
+    "variables": 4511,
+    "clauses": 715454,
+    "proof_file": "radius_4.drup",
+    "proof_additions": 8039,
+    "proof_deletions_ignored": 3788,
+    "proof_sha256": "2ab2cc4a770ba4e31982778c6654c07dc02faaed878648260ca508270af628a6",
+    "histogram": [
+      2,
+      6610,
+      34599,
+      110219,
+      215554,
+      255255,
+      198808,
+      101693,
+      32697,
+      7161,
+      0
+    ],
+    "independent_replay": "passed"
+  },
+  {
+    "radius": 5,
+    "variables": 5413,
+    "clauses": 1227766,
+    "proof_file": "radius_5.drup",
+    "proof_additions": 30366,
+    "proof_deletions_ignored": 16153,
+    "proof_sha256": "2ec6f7484e2bebac7ed593b6b142924f150f7e52dc6463918151130521262845",
+    "histogram": [
+      2,
+      6610,
+      34599,
+      110219,
+      215554,
+      255255,
+      198808,
+      101693,
+      32697,
+      7161,
+      0
+    ],
+    "independent_replay": "passed"
+  }
+]

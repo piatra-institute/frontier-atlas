@@ -1,0 +1,4 @@
+Python 3.13.5
+numpy 2.3.5
+networkx 3.6.1
+Linux 4066b9b04201 6.12.13 #1 SMP Tue Jun 23 15:34:50 UTC 2026 x86_64 GNU/Linux

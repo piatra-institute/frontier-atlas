@@ -1,0 +1,38 @@
+{
+  "212-490": {
+    "same_first": 5,
+    "different_first": 1,
+    "same_count": 20,
+    "different_count": 64
+  },
+  "218-491": {
+    "same_first": 8,
+    "different_first": 1,
+    "same_count": 20,
+    "different_count": 64
+  },
+  "224-489": {
+    "same_first": 5,
+    "different_first": 1,
+    "same_count": 13,
+    "different_count": 71
+  },
+  "212-491": {
+    "same_first": 9,
+    "different_first": 1,
+    "same_count": 12,
+    "different_count": 72
+  },
+  "218-489": {
+    "same_first": 5,
+    "different_first": 1,
+    "same_count": 16,
+    "different_count": 68
+  },
+  "224-490": {
+    "same_first": 5,
+    "different_first": 1,
+    "same_count": 18,
+    "different_count": 66
+  }
+}

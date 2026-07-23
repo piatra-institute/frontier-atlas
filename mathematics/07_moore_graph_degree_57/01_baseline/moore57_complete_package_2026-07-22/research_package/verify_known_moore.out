@@ -1,0 +1,9 @@
+Checking 5-cycle (degree 2, order 5)
+  rooted C spectrum (rounded): {1: 1, -1: 1}
+  all exact checks passed
+Checking Petersen (degree 3, order 10)
+  rooted C spectrum (rounded): {2: 1, 1: 2, -1: 2, -2: 1}
+  all exact checks passed
+Checking Hoffman-Singleton (degree 7, order 50)
+  rooted C spectrum (rounded): {6: 1, 2: 21, -1: 6, -3: 14}
+  all exact checks passed

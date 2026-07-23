@@ -1,0 +1,112 @@
+{
+  "exact_extension": {
+    "records": 328,
+    "total_bytes": 514910,
+    "failures": []
+  },
+  "one_bad": {
+    "records": 328,
+    "total_bytes": 27871145,
+    "failures": []
+  },
+  "two_bad": {
+    "records": 328,
+    "certified_unsat_records": 326,
+    "sat_records": [
+      {
+        "index": 41,
+        "witness_count": 2
+      },
+      {
+        "index": 255,
+        "witness_count": 2
+      }
+    ],
+    "total_bytes": 97785668,
+    "failures": [],
+    "direct_witness_checks": [
+      {
+        "base_index": 41,
+        "witness": 0,
+        "new_degree": 21,
+        "bad_K5s": 2,
+        "passed": true
+      },
+      {
+        "base_index": 41,
+        "witness": 1,
+        "new_degree": 22,
+        "bad_K5s": 2,
+        "passed": true
+      },
+      {
+        "base_index": 255,
+        "witness": 0,
+        "new_degree": 20,
+        "bad_K5s": 2,
+        "passed": true
+      },
+      {
+        "base_index": 255,
+        "witness": 1,
+        "new_degree": 21,
+        "bad_K5s": 2,
+        "passed": true
+      }
+    ]
+  },
+  "near_radius": {
+    "records": 5,
+    "total_bytes": 12903642,
+    "failures": []
+  },
+  "matrices": {
+    "near43_graph1.matrix": {
+      "sha256": "90b8f08bad6e430e57f0264895c808486b18b568fc33cc5b98645074d94a19e9",
+      "shape_43x43": true,
+      "binary": true,
+      "zero_diagonal": true,
+      "symmetric": true,
+      "edges": 448,
+      "clique_K5s": 0,
+      "independent_K5s": 2,
+      "total_bad_K5s": 2
+    },
+    "near43_graph2.matrix": {
+      "sha256": "8e004c43d8c280b3fb478335b54688653e2e93deecb6fdf8fcae6f5179b8a5a1",
+      "shape_43x43": true,
+      "binary": true,
+      "zero_diagonal": true,
+      "symmetric": true,
+      "edges": 449,
+      "clique_K5s": 2,
+      "independent_K5s": 0,
+      "total_bad_K5s": 2
+    }
+  },
+  "key_files": {
+    "input_prompt.pdf": {
+      "bytes": 252205,
+      "sha256": "2a9397490f0285362cfbd32d220465ad2afa3d3212a11866261ef3b3d24ebed4"
+    },
+    "R55_RESEARCH_REPORT.pdf": {
+      "bytes": 55576,
+      "sha256": "979d727bc13696346ff679635a99a7387f0c91b669a12c1b3a21de27eceb62e5"
+    },
+    "data/r55_42some.g6": {
+      "bytes": 47888,
+      "sha256": "067902e853d87b49bcef0d1d4c0e3bbadd238ee18bc65341b079a3ca4780eccb"
+    },
+    "RESEARCH_REPORT.md": {
+      "bytes": 12597,
+      "sha256": "c0e4ee9aab35cabbda0dcc03543a5dba39d2b845ca0d1f272397515f63f7b788"
+    },
+    "VERIFICATION_LOG.md": {
+      "bytes": 2289,
+      "sha256": "2748284cbe133e893f6e5bad79b58598b8ad62f0296cbd694c6ef084abbe4b6a"
+    }
+  },
+  "report_pages": 6,
+  "all_manifest_hashes_pass": true,
+  "proof_records_total": 989
+}

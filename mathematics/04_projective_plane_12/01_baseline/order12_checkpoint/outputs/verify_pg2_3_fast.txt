@@ -1,0 +1,4 @@
+PASS
+order=3 points=13 lines=13 incidences_per_row=4
+sha256=50feed717ce26ae405a12d3a7f938f31f847579242ce6157351156e3b4542a75
+verified: binary entries, row/column sums, all line-pair and point-pair intersections

@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this reconstructed package, cite the repository version and state that Conway's 99-graph problem remains unresolved in the included artifacts."
+title: "Conway-99 fixed-vertex research package"
+version: 0.1.0
+date-released: 2026-07-21
+type: software

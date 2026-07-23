@@ -1,0 +1,23 @@
+$ python lrc_exact.py --self-test
+self-tests: PASS
+
+$ python verify_certificate.py lrc_grid_obstruction_certificate.json
+verified diagonal: k=13, d=2000, grid witnesses=0, exact maximum=1/13
+verified congruence: k=13, d=2003, grid witnesses=0, exact maximum=1/13
+independent certificate verification: PASS
+
+$ python lrc_exact.py --speeds 1 2 3 4 5 6 7 8 9 10 11 12 2000 --grid 2000 --maximum
+speeds=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 2000)
+threshold=1/14
+grid denominator=2000
+grid witness count=0
+maximum loneliness=1/13
+maximizing times=1/13, 2/13, 3/13, 4/13, 5/13, 6/13, 7/13, 8/13, 9/13, 10/13, 11/13, 12/13
+
+$ python lrc_exact.py --speeds 1 2 3 4 5 6 7 8 9 10 11 12 2016 --grid 2003 --maximum
+speeds=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 2016)
+threshold=1/14
+grid denominator=2003
+grid witness count=0
+maximum loneliness=1/13
+maximizing times=1/13, 2/13, 3/13, 4/13, 5/13, 6/13, 7/13, 8/13, 9/13, 10/13, 11/13, 12/13

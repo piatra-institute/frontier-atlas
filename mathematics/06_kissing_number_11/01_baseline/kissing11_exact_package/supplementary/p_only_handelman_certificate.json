@@ -1,0 +1,17 @@
+{
+  "group_size": 48,
+  "constraint_count": 46,
+  "degree": 3,
+  "target": "3-sum_i p_i^2",
+  "terms": [
+    {"coefficient":[1,132],"orbit_size":48,"representative":["T013","T024","T567"],"representative_indices":[22,26,45]},
+    {"coefficient":[1,66],"orbit_size":48,"representative":["p0","T013","T247"],"representative_indices":[0,22,39]},
+    {"coefficient":[1,44],"orbit_size":48,"representative":["p0","1-p0","T123"],"representative_indices":[0,1,31]},
+    {"coefficient":[1,1056],"orbit_size":24,"representative":["1-p0","pair01","pair23"],"representative_indices":[1,16,21]},
+    {"coefficient":[5,44],"orbit_size":48,"representative":["p0","p1","T013"],"representative_indices":[0,2,22]},
+    {"coefficient":[3,44],"orbit_size":48,"representative":["p0","1-p1","pair03"],"representative_indices":[0,3,18]},
+    {"coefficient":[1,44],"orbit_size":24,"representative":["p0","1-p0","pair12"],"representative_indices":[0,1,19]},
+    {"coefficient":[1,132],"orbit_size":48,"representative":["p0","1-p0","T156"],"representative_indices":[0,1,35]},
+    {"coefficient":[1,1056],"orbit_size":24,"representative":["p0","pair01","pair23"],"representative_indices":[0,16,21]}
+  ]
+}

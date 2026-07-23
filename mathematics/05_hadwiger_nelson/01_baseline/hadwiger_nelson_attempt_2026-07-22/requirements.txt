@@ -1,0 +1,4 @@
+sympy>=1.13,<2
+numpy>=2,<3
+networkx>=3,<4
+numba>=0.61,<1
