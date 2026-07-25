@@ -8,7 +8,7 @@ Run every attempt under this. The prompt gives the problem; this gives the metho
 
 1. Orient. Survey the landscape, state the prior art you rely on, pick an angle, name your plan.
 2. Compute, do not just argue. Run the tools this prompt names (SAT/CAS/code); test every conjecture numerically first; let tool output correct you.
-3. Adversarially self-verify. After any claim, try hard to break it: counterexamples, edge cases, independent re-derivation, run the verifier. Treat it as wrong until it survives.
+3. Adversarially self-verify. After any claim, try hard to break it: counterexamples, edge cases, independent re-derivation, run the verifier. Treat it as wrong until it survives. Formalize to attack, not only to confirm: a stalled Lean/Coq proof is a signal, and the obligation it cannot discharge can localize a counterexample. Mine failed proofs; do not just discard them.
 4. Report honestly. State exactly what is and is not established. A certified partial result beats an unverified claim of the full one. Never dress a partial, restricted, or numerical result as the full resolution. No fabricated citations; flag every uncertainty.
 5. Preserve the record. Keep source, seeds, and a SHA-256 manifest so the result replays (see ARTIFACTS.md).
 
