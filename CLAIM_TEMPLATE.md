@@ -13,3 +13,5 @@ One worked attempt's exact result, kept small and separate from the bulky proof 
 **Review level.** self | agent | human | community (see FRONTIER_LOG.md). Never label a result more reviewed than it is.
 
 **Provenance.** Model and tools used; what the model produced vs what the checker confirmed.
+
+**Cost and attempts.** Total model spend including failed runs and abandoned lines, the number of attempts behind this result, and any harness or compute beyond a single workstation. Report the denominator, not just the winning run.
