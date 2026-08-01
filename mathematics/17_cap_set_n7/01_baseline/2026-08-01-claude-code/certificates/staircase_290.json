@@ -1,0 +1,55 @@
+{
+  "size": 290,
+  "admissible_profiles": 200,
+  "aggregate_slack": -145476,
+  "negative_profiles": [
+    [
+      [
+        112,
+        112,
+        66
+      ],
+      -10335
+    ],
+    [
+      [
+        112,
+        111,
+        67
+      ],
+      -4620
+    ]
+  ],
+  "zero_profiles": [
+    [
+      111,
+      111,
+      68
+    ],
+    [
+      97,
+      97,
+      96
+    ]
+  ],
+  "max_negative_magnitude": 10335,
+  "min_exceptional_directions": 15,
+  "reduces_to": "a(7) <= 289",
+  "coeffs": [
+    44,
+    -3999,
+    36212688
+  ],
+  "independent_separator": {
+    "feasible": true,
+    "integer_check": "exact",
+    "scale": 1,
+    "coeffs": [
+      110028,
+      -10000000,
+      90554358590
+    ],
+    "aggregate_slack": -123743690,
+    "note": "separator found by LP, independent of published coeffs"
+  }
+}

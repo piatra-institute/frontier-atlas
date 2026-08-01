@@ -1,0 +1,2 @@
+237-cap slice floor: <=88 INFEASIBLE (Farkas y=(199910685, -32896, 439), aggregate=-332669), <=89 FEASIBLE -> every 237-cap has a slice >= 89 (exact-integer verified: True).
+wrote certificates/slice_floor_237.json

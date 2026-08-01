@@ -1,0 +1,11 @@
+validation (greedy length vs known minimal):
+  n=1: greedy len=1 (minimal 1), valid=True, sum k! = 1
+  n=2: greedy len=3 (minimal 3), valid=True, sum k! = 3
+  n=3: greedy len=9 (minimal 9), valid=True, sum k! = 9
+  n=4: greedy len=33 (minimal 33), valid=True, sum k! = 33
+  n=5: greedy len=153 (minimal 153), valid=True, sum k! = 153
+
+n=6: greedy superpermutation length=873, valid=True (missing 0 perms)
+known bounds: 867 <= s(6) <= 872. greedy gives sum k! = 873.
+RESULT: greedy length 873 does not beat the record 872; matching or beating 872 needs a dedicated construction / Chaffin-method or ATSP search, out of scope for plain greedy.
+wrote certificate + string

@@ -1,0 +1,4 @@
+a(4): no-21-cap -> INFEASIBLE (6.8s) => a(4) <= 20 PROVEN; witness 20-cap OPTIMAL triple-scan=PASS (0.0s)
+a(5): no-46-cap -> UNKNOWN (90.0s) (not closed); witness 45-cap OPTIMAL triple-scan=PASS (0.5s)
+a(6): no-113-cap -> UNKNOWN (120.1s) (not closed); witness 112-cap UNKNOWN triple-scan=n/a (30.0s)
+wrote certificates/small_caps.json

@@ -1,0 +1,5 @@
+a(2) <= 4: UNSAT (0.0s, 9 vars, 12 lines, 56 clauses) -> drat-trim: VERIFIED (proof 0 KB)
+a(3) <= 9: UNSAT (0.0s, 27 vars, 117 lines, 454 clauses) -> drat-trim: VERIFIED (proof 1 KB)
+a(4) <= 20: UNSAT (18.9s, 81 vars, 1080 lines, 3566 clauses) -> drat-trim: VERIFIED (proof 42527 KB)
+a(5) <= 45: timeout (300.0s) -- not certified
+wrote certificates/sat_bounds.json

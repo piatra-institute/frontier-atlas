@@ -1,0 +1,44 @@
+[
+  {
+    "d": 2,
+    "K": 4,
+    "points": 9,
+    "lines": 12,
+    "clauses": 56,
+    "solve_seconds": 0.0,
+    "result": "UNSAT",
+    "drat_trim": "VERIFIED",
+    "proof_bytes": 190
+  },
+  {
+    "d": 3,
+    "K": 9,
+    "points": 27,
+    "lines": 117,
+    "clauses": 454,
+    "solve_seconds": 0.0,
+    "result": "UNSAT",
+    "drat_trim": "VERIFIED",
+    "proof_bytes": 1889
+  },
+  {
+    "d": 4,
+    "K": 20,
+    "points": 81,
+    "lines": 1080,
+    "clauses": 3566,
+    "solve_seconds": 18.9,
+    "result": "UNSAT",
+    "drat_trim": "VERIFIED",
+    "proof_bytes": 43548037
+  },
+  {
+    "d": 5,
+    "K": 45,
+    "points": 243,
+    "lines": 9801,
+    "clauses": 27780,
+    "solve_seconds": 300.0,
+    "result": "timeout"
+  }
+]

@@ -1,0 +1,6 @@
+[greedy] restarts=786 time=15.0s best_size=145 (known record 236; gap 91)
+[base] loaded 236-cap, size=236
+[repair] trials=370 best_size=236 (improvement over 236: 0)
+
+RESULT: no cap larger than 236 found.
+Heuristic construction reaches far below the structured 236-cap; beating 236 needs an exact solver (OR-tools CP-SAT / ILP with local branching), not available here. This is a documented null attempt.

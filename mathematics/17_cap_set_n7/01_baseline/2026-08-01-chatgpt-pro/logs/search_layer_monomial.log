@@ -1,0 +1,23 @@
+new best allowed=12 whole_allowed_is_cap=1 transform=0
+transforms 46080
+best allowed cardinality 12
+best entire allowed cap size marker 12
+best permutation 0 1 2 3 4 5
+best signs 1 1 1 1 1 1
+nonzero histogram
+0 32640
+1 1920
+12 11520
+best allowed points
+100000
+200000
+010000
+020000
+001000
+002000
+000100
+000200
+000010
+000020
+000001
+000002

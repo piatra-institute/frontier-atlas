@@ -1,0 +1,2 @@
+PASS M=289: 208 types; exactly four negative profiles; total slack -499824.
+PASS M=291: 192 types; only (112,112,67) is negative; at least 7 such directions.

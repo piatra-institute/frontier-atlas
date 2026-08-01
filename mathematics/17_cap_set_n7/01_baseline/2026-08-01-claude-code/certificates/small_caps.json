@@ -1,0 +1,38 @@
+[
+  {
+    "d": 4,
+    "points": 81,
+    "lines": 1080,
+    "known": 20,
+    "bound_status": "INFEASIBLE",
+    "bound_seconds": 6.8,
+    "bound_proven": true,
+    "witness_status": "OPTIMAL",
+    "witness_seconds": 0.0,
+    "witness_triple_scan": "PASS"
+  },
+  {
+    "d": 5,
+    "points": 243,
+    "lines": 9801,
+    "known": 45,
+    "bound_status": "UNKNOWN",
+    "bound_seconds": 90.0,
+    "bound_proven": false,
+    "witness_status": "OPTIMAL",
+    "witness_seconds": 0.5,
+    "witness_triple_scan": "PASS"
+  },
+  {
+    "d": 6,
+    "points": 729,
+    "lines": 88452,
+    "known": 112,
+    "bound_status": "UNKNOWN",
+    "bound_seconds": 120.1,
+    "bound_proven": false,
+    "witness_status": "UNKNOWN",
+    "witness_seconds": 30.0,
+    "witness_triple_scan": "n/a"
+  }
+]

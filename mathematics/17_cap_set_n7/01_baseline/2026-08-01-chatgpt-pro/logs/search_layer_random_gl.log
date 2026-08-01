@@ -1,0 +1,29 @@
+new best 0 trial 0 length 2
+new best 1 trial 1 length 3
+new best 12 trial 25 length 2
+trials 500000 seed 463287463987 best 12
+histogram
+0 478051
+1 7882
+4 2563
+12 11504
+best matrix rows
+100000
+010000
+001000
+000100
+000020
+000002
+best allowed points
+100000
+200000
+010000
+020000
+001000
+002000
+000100
+000200
+000010
+000020
+000001
+000002

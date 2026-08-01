@@ -1,0 +1,10 @@
+identities: D=1093 pair_mult=364 triple_mult=121 (expect 1093/364/121)
+M=291: 1 exceptional profile(s) [(112, 112, 67)], aggregate=-505661, >= 7 forced dirs -> a(7) <= 290; independent LP separator: exact
+M=290: 2 exceptional profile(s) [(112, 112, 66), (112, 111, 67)], aggregate=-145476, >= 15 forced dirs -> a(7) <= 289; independent LP separator: exact
+M=289: 4 exceptional profile(s) [(112, 112, 65), (112, 111, 66), (111, 111, 67), (112, 110, 67)], aggregate=-499824, >= 16 forced dirs -> a(7) <= 288; independent LP separator: exact
+M=288: 6 exceptional profile(s) [(112, 112, 64), (112, 111, 65), (111, 111, 66), (112, 110, 66), (111, 110, 67), (112, 109, 67)], aggregate=-15984, >= 11 forced dirs -> a(7) <= 287; independent LP separator: exact
+
+Staircase (each step needs the listed profiles proved impossible by SAT):
+  291 -> 290 -> 289 -> 288 -> 287
+  known literature upper bound: a(7) <= 288 (arXiv:2206.09804)
+  only a(7) <= 287 would beat it; all arithmetic here is a REDUCTION, not a bound: it forces which profiles a SAT search must still eliminate.

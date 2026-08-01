@@ -1,0 +1,8 @@
+{
+  "n": 6,
+  "greedy_length": 873,
+  "valid": true,
+  "known_lower": 867,
+  "known_upper": 872,
+  "beats_record": false
+}

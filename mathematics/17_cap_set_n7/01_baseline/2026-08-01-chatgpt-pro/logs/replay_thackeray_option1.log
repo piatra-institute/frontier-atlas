@@ -1,0 +1,8 @@
+PASS: Thackeray Proposition 4.1 Option-1 finite subsearch replay
+normalized transformations checked 486 (=2*3^5)
+all 729 middle-layer points are cross-blocked in every transformation
+case histogram: (low<=2, n=1, n=2, min, max) -> transformations
+0 0 0 11 46 -> 44
+2 0 2 2 56 -> 440
+112 112 0 1 112 -> 2
+Scope: this replays the 486-option search after the paper's structural normalization; it does not certify that normalization.

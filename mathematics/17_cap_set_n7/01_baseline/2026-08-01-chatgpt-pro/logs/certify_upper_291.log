@@ -1,0 +1,7 @@
+PASS: exact hyperplane-distribution certificate
+admissible sorted slice types checked: 184
+aggregate slack: 2328
+positive-slack partitions checked: 4
+each case leaves 91848 = 645*n_B, but 91848 mod 645 = 258
+CONCLUSION (assuming a(6)<=112): a(7)<=291
+/mnt/data/a7_cap_attempt/certificates/upper291_certificate.json

@@ -1,0 +1,22 @@
+{
+  "claim": "Every 237-cap in AG(7,3) has a hyperplane slice of size >= 89; the first-three-moment method cannot force >= 90.",
+  "premise": "a(6) = 112 (max slice); moment identities over 1093 directions.",
+  "moment_totals": {
+    "sum_n": 1093,
+    "sum_nP": 10179624,
+    "sum_nQ": 265071070
+  },
+  "farkas_certificate": {
+    "y": [
+      199910685,
+      -32896,
+      439
+    ],
+    "statement": "y0 + y1*P(t) + y2*Q(t) >= 0 for all profiles with parts <= 88, but y0*1093 + y1*sum_nP + y2*sum_nQ < 0",
+    "aggregate": -332669,
+    "verified_exact_integer": true
+  },
+  "floor": 89,
+  "feasible_at_89": true,
+  "gap_note": "moment method reaches 89; rigidity classifications start near 110; the 89..110 interval is unbridged."
+}

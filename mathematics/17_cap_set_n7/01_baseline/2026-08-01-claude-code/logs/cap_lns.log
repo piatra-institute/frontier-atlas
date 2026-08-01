@@ -1,0 +1,13 @@
+loaded 236-cap (E=0, expect 0)
+  restart 1: min E=10 (overall best 10)
+  restart 2: min E=138 (overall best 10)
+  restart 3: min E=10 (overall best 10)
+  restart 4: min E=127 (overall best 10)
+  restart 5: min E=10 (overall best 10)
+  restart 6: min E=116 (overall best 10)
+  restart 7: min E=10 (overall best 10)
+  restart 8: min E=89 (overall best 10)
+  restart 9: min E=10 (overall best 10)
+  restart 10: min E=118 (overall best 10)
+
+RESULT: no 237-cap found. best min-violations=10 over 10 restarts in 300s. Lower bound remains 236.

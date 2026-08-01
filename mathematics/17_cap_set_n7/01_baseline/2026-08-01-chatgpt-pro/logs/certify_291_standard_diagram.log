@@ -1,0 +1,6 @@
+PASS: exact 291 standard-diagram check
+admissible sorted slice types checked: 192
+aggregate slack: -505661
+only negative type: (112, 112, 67) -74250
+CONCLUSION: every hypothetical 291-cap has at least 7 directions of type (112,112,67)
+/mnt/data/a7_cap_attempt/certificates/standard_diagram_291.json
