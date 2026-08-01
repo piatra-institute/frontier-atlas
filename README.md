@@ -23,7 +23,7 @@ Each `STRATEGY.md` details this; in brief:
 
 - **Intelligence-rich, resource-poor.** Pick problems where reasoning plus a workstation plus verification beats brute force.
 - **Certified partial results are the product.** Every session ends with something independently checkable: a bound with a proof trace, an exact reduction, an obstruction certificate, a verified construction, or a leakage-safe held-out result. Full resolutions are windfalls.
-- **Distrust the verifier; re-verify before every session.** Open-problem status drifts monthly. Prompts state prior art "as of mid-2026"; treat it as stale until re-checked.
+- **Distrust the verifier; re-verify before every session.** Open-problem status drifts monthly. Prompts state prior art "as of mid-2026"; treat it as stale until re-checked. `FRONTIER_LOG.md` tracks external results that resolve or sit adjacent to atlas problems.
 - **Everything is auditable.** Exact or certified computation for any load-bearing claim, independent replay checkers, SHA-256 manifests, preserved search/training source.
 - **Honest reporting.** Reports state up front whether the standard was met; a partial or numerical result is never dressed as a full solution, and an in-silico prediction is never dressed as a proof.
 
@@ -50,6 +50,8 @@ Every session runs under the atlas `SOLVER.md` (agency, compute, adversarial sel
 ```
 frontier-atlas/
 ├── README.md            ← this file
+├── SOLVER.md            method layer every attempt runs under
+├── FRONTIER_LOG.md      dated ledger of external results and rescopes
 ├── .gitignore
 ├── physics/             README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── mathematics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
