@@ -52,6 +52,8 @@ frontier-atlas/
 ├── README.md            ← this file
 ├── SOLVER.md            method layer every attempt runs under
 ├── FRONTIER_LOG.md      dated ledger of external results and rescopes
+├── CLAIM_TEMPLATE.md    per-attempt claim + checker + trust base stub
+├── ARTIFACTS.md         what git tracks vs regenerates
 ├── .gitignore
 ├── physics/             README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── mathematics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
