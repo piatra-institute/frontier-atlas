@@ -1,0 +1,4 @@
+certificate_regeneration elapsed=0:03.01 user=3.16 sys=0.61 maxrss_kb=110540
+formula_test elapsed=0:01.22 user=1.32 sys=0.28 maxrss_kb=109428
+upper_verifier elapsed=0:01.41 user=1.47 sys=0.28 maxrss_kb=110300
+lower_verifier elapsed=0:03.82 user=3.89 sys=0.27 maxrss_kb=112048

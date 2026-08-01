@@ -1,0 +1,4 @@
+$ ./reproduce_certificates.sh
+generated .build/reproduced/backtracking_orbit7.json: leaves=13 internal=27 max_depth=7 candidates=[1, 2, 3]
+generated .build/reproduced/backtracking_full.json: leaves=1303 internal=896 max_depth=10 candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+CERTIFICATE REPRODUCTION OK

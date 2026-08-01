@@ -1,0 +1,16 @@
+independent_lower_bound_verifier=verify_lower_bound_independent.py
+generation_method=all_3^12_integer-decoded columns + Bron-Kerbosch maximal cliques
+matrix_count=165
+matrix_orbits=7
+canonical_columns=86526
+pattern=0 orbit=9 candidates=180 edges=2513 omega=2 maximum_cliques=2513 maximal_cliques=2539
+pattern=1 orbit=36 candidates=288 edges=5357 omega=3 maximum_cliques=444 maximal_cliques=5053
+pattern=2 orbit=6 candidates=408 edges=9597 omega=3 maximum_cliques=3392 maximal_cliques=9419
+pattern=3 orbit=36 candidates=508 edges=14473 omega=3 maximum_cliques=9160 maximal_cliques=17017
+pattern=4 orbit=36 candidates=552 edges=15497 omega=3 maximum_cliques=11832 maximal_cliques=19397
+pattern=5 orbit=36 candidates=792 edges=32589 omega=4 maximum_cliques=160 maximal_cliques=64117
+pattern=6 orbit=6 candidates=1280 edges=84017 omega=5 maximum_cliques=336 maximal_cliques=301357
+conclusion=no compatibility graph contains K6
+lower_bound=CAN(2,8,3)>=13
+elapsed_seconds=2.659736
+result=PASS

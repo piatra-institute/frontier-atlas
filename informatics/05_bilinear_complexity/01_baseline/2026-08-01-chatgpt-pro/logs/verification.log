@@ -1,0 +1,10 @@
+$ g++ -O3 -std=c++17 -Wall -Wextra -pedantic two_slice_rank9.cpp -o .build/two_slice_rank9
+$ python3 tests/test_two_slice_formula.py
+FORMULA TEST OK: all 256 tensors; 27 nonzero rank-one generators
+$ python3 verify_upper.py decomposition.json
+UPPER OK: 11 terms; 144 tensor coefficients; 1024 input pairs
+decomposition_sha256=c92c56d638a303dc15365c7b3bf42cc55f14236a2936e6075d321e164b795279
+$ python3 verify_lower.py --orbits orbits.json --orbit7-cert certificates/backtracking_orbit7.json --full-cert certificates/backtracking_full.json --two-slice-exe .build/two_slice_rank9
+TWO_SLICE OK rank0=1 rank1=3969 rank2=2542806 tested_z=7640328 minimum_tested=9 upper_from_Z0=9 witness_ranks=0,6,3
+LOWER OK: 67 subspaces; 11 orbits; flattenings={0: (0, 0, 0), 1: (1, 3, 3), 2: (1, 6, 6), 3: (2, 6, 3), 4: (2, 3, 6), 5: (2, 6, 6), 6: (2, 6, 6), 7: (2, 6, 6), 8: (3, 6, 6), 9: (3, 6, 6), 10: (4, 6, 6)}; orbit7_ranks=(6, 6, 6); trees=(13,1303)
+full_certificate_sha256=b9f1970a4b475d00f0bd44726397256138cc46e4fcab05264c2669c84153a241

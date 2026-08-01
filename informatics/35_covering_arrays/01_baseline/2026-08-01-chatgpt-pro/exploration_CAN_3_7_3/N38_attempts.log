@@ -1,0 +1,12 @@
+target=CA(38;3,7,3)
+status=NO_WITNESS_FOUND
+method=focused min-conflicts; every move directly covers a currently missing 3-tuple
+validation=the same executable found CA(39;3,7,3) in 0.607070 seconds at seed 9
+runs:
+  seed=99 budget=10s best_missing=5 result=NOT_FOUND
+  seed=101 parallel_budget_nominal=60s best_missing=5 result=TIME_LIMIT_NO_WITNESS
+  seed=102 parallel_budget_nominal=60s best_missing=5 result=TIME_LIMIT_NO_WITNESS
+  seed=103 parallel_budget_nominal=60s best_missing=5 result=TIME_LIMIT_NO_WITNESS
+  seed=104 parallel_budget_nominal=60s best_missing=5 result=TIME_LIMIT_NO_WITNESS
+  seed=105 parallel_budget_nominal=60s best_missing=5 result=TIME_LIMIT_NO_WITNESS
+load_bearing=false

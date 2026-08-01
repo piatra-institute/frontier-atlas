@@ -1,0 +1,4 @@
+coverage_checker=bitmask-cpp
+array=CA(13;2,8,3)
+column_pairs_checked=28
+result=PASS

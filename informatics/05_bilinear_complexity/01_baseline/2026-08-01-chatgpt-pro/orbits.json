@@ -1,0 +1,19 @@
+{
+  "schema": "piatra.restriction_orbits_223_f2.v1",
+  "field": "F2",
+  "restriction_encoding": "A 2x2 coefficient matrix R is the integer r00 + 2*r01 + 4*r10 + 8*r11. A listed set denotes its F2-linear span. The restricted input matrices A satisfy <R,A>=0 for every R in that span.",
+  "symmetry": "GL(2,2) x GL(2,2) left-right action on 2x2 coefficient matrices",
+  "orbits": [
+    {"index":0,  "restrictions":[1,2,4,8], "codimension":4, "lower_bound":0,  "proof":"trivial_zero"},
+    {"index":1,  "restrictions":[1,2,4],   "codimension":3, "lower_bound":3,  "proof":"flattening"},
+    {"index":2,  "restrictions":[1,6,8],   "codimension":3, "lower_bound":6,  "proof":"flattening"},
+    {"index":3,  "restrictions":[1,2],     "codimension":2, "lower_bound":6,  "proof":"flattening"},
+    {"index":4,  "restrictions":[1,4],     "codimension":2, "lower_bound":6,  "proof":"flattening"},
+    {"index":5,  "restrictions":[1,6],     "codimension":2, "lower_bound":9,  "proof":"two_slice_rank_metric_exact"},
+    {"index":6,  "restrictions":[1,8],     "codimension":2, "lower_bound":6,  "proof":"flattening"},
+    {"index":7,  "restrictions":[6,13],    "codimension":2, "lower_bound":9,  "proof":"three_matrix_rank_inequality_and_backtracking"},
+    {"index":8,  "restrictions":[1],       "codimension":1, "lower_bound":9,  "proof":"monotonicity_via_orbit_5", "extra_restriction":6},
+    {"index":9,  "restrictions":[6],       "codimension":1, "lower_bound":9,  "proof":"monotonicity_via_orbit_5", "extra_restriction":1},
+    {"index":10, "restrictions":[],        "codimension":0, "lower_bound":11, "proof":"substitution_backtracking"}
+  ]
+}

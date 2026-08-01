@@ -1,0 +1,5 @@
+coverage_checker=set-based-python
+array=CA(13;2,8,3)
+column_subsets_checked=28
+tuples_required_per_subset=9
+result=PASS

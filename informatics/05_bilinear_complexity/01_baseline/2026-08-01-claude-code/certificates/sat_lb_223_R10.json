@@ -1,0 +1,8 @@
+{
+  "map": "<2,2,3>",
+  "R": 10,
+  "vars": 3193,
+  "clauses": 12249,
+  "seconds": 600.0,
+  "result": "timeout"
+}

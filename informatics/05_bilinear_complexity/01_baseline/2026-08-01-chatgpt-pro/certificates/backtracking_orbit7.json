@@ -1,0 +1,171 @@
+{
+  "base_orbit_index": 7,
+  "base_restrictions": [
+    6,
+    13
+  ],
+  "candidate_vectors": [
+    1,
+    2,
+    3
+  ],
+  "closure_orbit_histogram": {
+    "2": 13
+  },
+  "closure_rule": "For selected terms I, rank(T_base) >= |I| + LB(T_restricted_by_span(I)).",
+  "field": "F2",
+  "internal_count": 27,
+  "leaf_count": 13,
+  "leaf_depth_histogram": {
+    "3": 3,
+    "4": 3,
+    "5": 4,
+    "6": 2,
+    "7": 1
+  },
+  "leaves": [
+    {
+      "orbit_index": 2,
+      "selected_mask": 7,
+      "sequence": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 14,
+      "sequence": [
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 28,
+      "sequence": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 7,
+      "sequence": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 14,
+      "sequence": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 28,
+      "sequence": [
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 56,
+      "sequence": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 14,
+      "sequence": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 28,
+      "sequence": [
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 56,
+      "sequence": [
+        3,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 112,
+      "sequence": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 28,
+      "sequence": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "orbit_index": 2,
+      "selected_mask": 7,
+      "sequence": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "map": "<2,2,3>",
+  "max_depth": 7,
+  "ordering": "nonincreasing candidate index",
+  "schema": "piatra.substitution_backtracking_certificate.v1",
+  "target_lower_bound": 9
+}

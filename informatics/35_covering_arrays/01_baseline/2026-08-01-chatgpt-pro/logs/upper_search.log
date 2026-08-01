@@ -1,0 +1,6 @@
+seed=123
+restart=1
+step=256894
+elapsed_seconds=1.507911
+output=/tmp/repro_CA13.csv
+exact_witness_match_ignoring_csv_line_endings=PASS

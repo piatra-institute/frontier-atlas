@@ -1,0 +1,9 @@
+Session date: 2026-08-01
+Host timezone for report: Europe/Bucharest
+Python: 3.13.5
+G++: 14.2.0 (Debian 14.2.0-19)
+C++ standard: C++17
+Coreutils sha256sum: 9.7
+Archive tool: Info-ZIP 3.0
+Arithmetic: exact bit arithmetic over F2; no floating point
+External paid compute: none

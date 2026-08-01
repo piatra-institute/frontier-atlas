@@ -1,0 +1,12 @@
+pattern_id=1
+matrix=1,1,1,1,1,1,1,2,3
+matrix_orbit_size=36
+base_c0=000111222222
+base_c1=012012011222
+candidate_count=288
+edge_count=5357
+k6_count=0
+k6_nodes_by_depth=[1,283,4617,60,0,0,0]
+max_clique_size=3
+max_clique_count=444
+max_clique_witness=[0,206,265]

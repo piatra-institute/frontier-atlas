@@ -1,0 +1,11 @@
+{
+  "file": "CA_13_2_8_3.csv",
+  "N": 13,
+  "t": 2,
+  "k": 8,
+  "v": 3,
+  "subsets": 28,
+  "missing_interactions": 0,
+  "valid": true,
+  "upper_bound": "CAN(2,8,3) <= 13"
+}

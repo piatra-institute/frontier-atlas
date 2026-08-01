@@ -1,0 +1,11 @@
+{
+  "file": "CA_39_3_7_3.csv",
+  "N": 39,
+  "t": 3,
+  "k": 7,
+  "v": 3,
+  "subsets": 35,
+  "missing_interactions": 0,
+  "valid": true,
+  "upper_bound": "CAN(3,7,3) <= 39"
+}

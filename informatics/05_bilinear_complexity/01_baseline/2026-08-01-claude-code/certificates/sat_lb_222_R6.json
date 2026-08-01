@@ -1,0 +1,9 @@
+{
+  "map": "<2,2,2>",
+  "R": 6,
+  "vars": 901,
+  "clauses": 3365,
+  "seconds": 0.2,
+  "result": "UNSAT",
+  "drat_trim": "VERIFIED"
+}

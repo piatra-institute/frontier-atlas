@@ -1,0 +1,8 @@
+{
+  "map": "<2,2,3>",
+  "R": 11,
+  "vars": 3530,
+  "clauses": 13530,
+  "seconds": 12.7,
+  "result": "SAT"
+}

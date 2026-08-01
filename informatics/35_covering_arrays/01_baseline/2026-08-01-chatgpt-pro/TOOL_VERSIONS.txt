@@ -1,0 +1,7 @@
+date_utc=2026-08-01T14:17:33Z
+uname=Linux 41fcc102cc99 6.12.13 #1 SMP Thu Jul 23 17:57:28 UTC 2026 x86_64 GNU/Linux
+python=Python 3.13.5
+gxx=g++ (Debian 14.2.0-19) 14.2.0
+sha256sum=sha256sum (GNU coreutils) 9.7
+zip=This is Zip 3.0 (July 5th 2008), by Info-ZIP.
+cpu_count=5

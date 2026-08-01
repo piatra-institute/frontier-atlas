@@ -1,0 +1,138 @@
+problem_name: "matrix_q02_n223"
+characteristic: 2
+extension_degree: 1
+na: 4
+nb: 6
+nc: 6
+constrained_tensors {
+  constraints: "\001\002\004\010"
+  rank_lower_bound: 0
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 0
+  rank_upper_bound_proof: "rank=0. "
+}
+constrained_tensors {
+  index: 1
+  constraints: "\001\002\004"
+  rank_lower_bound: 3
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 3
+  rank_upper_bound_proof: "rank=3. (a3)*(b3)*(c1) + (a3)*(b4)*(c3) + (a3)*(b5)*(c5)"
+}
+constrained_tensors {
+  index: 2
+  constraints: "\001\006\010"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 6
+  rank_upper_bound_proof: "rank=6. (a1)*(b0)*(c1) + (a1)*(b1)*(c3) + (a1)*(b2)*(c5) + (a1)*(b3)*(c0) + (a1)*(b4)*(c2) + (a1)*(b5)*(c4)"
+}
+constrained_tensors {
+  index: 3
+  constraints: "\001\002"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 6
+  rank_upper_bound_proof: "rank=6. (a2)*(b0)*(c1) + (a2)*(b1)*(c3) + (a2)*(b2)*(c5) + (a3)*(b3)*(c1) + (a3)*(b4)*(c3) + (a3)*(b5)*(c5)"
+}
+constrained_tensors {
+  index: 4
+  constraints: "\001\004"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 6
+  rank_upper_bound_proof: "rank=6. (a1)*(b3)*(c0) + (a1)*(b4)*(c2) + (a1)*(b5)*(c4) + (a3)*(b3)*(c1) + (a3)*(b4)*(c3) + (a3)*(b5)*(c5)"
+}
+constrained_tensors {
+  index: 5
+  constraints: "\001\006"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    forced_product_proof {
+      projection_type: 1
+    }
+  }
+  rank_upper_bound: 9
+  rank_upper_bound_proof: "rank=9. (a1)*(b0)*(c1) + (a1)*(b1)*(c3) + (a1)*(b2)*(c5) + (a1)*(b3)*(c0) + (a1)*(b4)*(c2) + (a1)*(b5)*(c4) + (a3)*(b3)*(c1) + (a3)*(b4)*(c3) + (a3)*(b5)*(c5)"
+}
+constrained_tensors {
+  index: 6
+  constraints: "\001\010"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+  rank_upper_bound: 6
+  rank_upper_bound_proof: "rank=6. (a1)*(b3)*(c0) + (a1)*(b4)*(c2) + (a1)*(b5)*(c4) + (a2)*(b0)*(c1) + (a2)*(b1)*(c3) + (a2)*(b2)*(c5)"
+}
+constrained_tensors {
+  index: 7
+  constraints: "\006\013"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    backtracking_proof {
+      proof_size: 13
+    }
+  }
+  rank_upper_bound: 9
+  rank_upper_bound_proof: "rank=9. (a0)*(b1+b2)*(c4+c5) + (a0)*(b0+b3)*(c0+c3+c5) + (a0)*(b1+b3)*(c2+c3+c4+c5) + (a1)*(b3+b4)*(c1+c2+c3+c4+c5) + (a1)*(b0+b3+b5)*(c1+c3+c5) + (a1)*(b4+b5)*(c1+c3+c4+c5) + (a0+a1)*(b0+b1+b3+b4)*(c3) + (a0+a1)*(b0+b2+b5)*(c0+c1+c2+c3+c4+c5) + (a0+a1)*(b0+b2+b3+b5)*(c0+c1+c2+c3+c4)"
+}
+constrained_tensors {
+  index: 8
+  constraints: "\001"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    degenerate_proof {
+      extra_constraint: 6
+      transformation {
+        query_elem: 9
+        store_elem: 13
+      }
+    }
+  }
+  rank_upper_bound: 9
+  rank_upper_bound_proof: "rank=9. (a1)*(b3)*(c0) + (a1)*(b4)*(c2) + (a1)*(b5)*(c4) + (a2)*(b0)*(c1) + (a2)*(b1)*(c3) + (a2)*(b2)*(c5) + (a3)*(b3)*(c1) + (a3)*(b4)*(c3) + (a3)*(b5)*(c5)"
+}
+constrained_tensors {
+  index: 9
+  constraints: "\006"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    degenerate_proof {
+      extra_constraint: 1
+      transformation {
+        query_elem: 9
+        store_elem: 13
+      }
+    }
+  }
+  rank_upper_bound: 9
+  rank_upper_bound_proof: "rank=9. (a1)*(b0+b3)*(c0+c1) + (a1)*(b2+b5)*(c2+c3+c4+c5) + (a1)*(b1+b2+b4+b5)*(c2+c3) + (a0+a1)*(b0)*(c0+c2) + (a0+a1)*(b0+b1)*(c2+c4) + (a0+a1)*(b0+b1+b2)*(c4) + (a1+a3)*(b4)*(c1+c3+c5) + (a1+a3)*(b3+b5)*(c1) + (a1+a3)*(b4+b5)*(c1+c5)"
+}
+constrained_tensors {
+  index: 10
+  rank_lower_bound: 11
+  rank_lower_bound_proof {
+    backtracking_proof {
+      proof_size: 1303
+    }
+  }
+  rank_upper_bound: 11
+  rank_upper_bound_proof: "rank=11. (a0)*(b1+b2+b4+b5)*(c0+c2) + (a0+a1)*(b4+b5)*(c0+c1+c4+c5) + (a2)*(b0+b2)*(c1+c3) + (a2)*(b0+b1+b2)*(c0+c3) + (a0+a2)*(b0+b1+b2+b3+b4+b5)*(c0) + (a3)*(b4)*(c2+c3+c4+c5) + (a3)*(b3+b4+b5)*(c0+c1) + (a1+a3)*(b2+b5)*(c2+c4) + (a0+a1+a3)*(b2+b4+b5)*(c1+c2+c4+c5) + (a0+a1+a2+a3)*(b2)*(c1+c5) + (a0+a1+a2+a3)*(b3+b4+b5)*(c0)"
+}

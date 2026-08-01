@@ -1,0 +1,114 @@
+n0: 2
+n1: 2
+n2: 3
+p: 2
+restricted_mm {
+  compact_restrictions: "\001\000\002\000\004\000\010\000"
+  rank_lower_bound: 0
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 1
+  compact_restrictions: "\001\000\002\000\004\000"
+  rank_lower_bound: 3
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 2
+  compact_restrictions: "\001\000\006\000\010\000"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 3
+  compact_restrictions: "\001\000\002\000"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 4
+  compact_restrictions: "\001\000\004\000"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 5
+  compact_restrictions: "\001\000\006\000"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    forced_product_proof {
+      projection_type: 1
+    }
+  }
+}
+restricted_mm {
+  index: 6
+  compact_restrictions: "\001\000\010\000"
+  rank_lower_bound: 6
+  rank_lower_bound_proof {
+    flatten_matrix_proof {
+    }
+  }
+}
+restricted_mm {
+  index: 7
+  compact_restrictions: "\006\000\013\000"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    backtracking_proof {
+      proof_size: 13
+    }
+  }
+}
+restricted_mm {
+  index: 8
+  compact_restrictions: "\001\000"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    degenerate_proof {
+      extra_restriction: 6
+      transformation {
+        gl_left: 11
+        gl_right: 13
+      }
+    }
+  }
+}
+restricted_mm {
+  index: 9
+  compact_restrictions: "\006\000"
+  rank_lower_bound: 9
+  rank_lower_bound_proof {
+    degenerate_proof {
+      extra_restriction: 1
+      transformation {
+        gl_left: 11
+        gl_right: 13
+      }
+    }
+  }
+}
+restricted_mm {
+  index: 10
+  rank_lower_bound: 11
+  rank_lower_bound_proof {
+    backtracking_proof {
+      proof_size: 1303
+    }
+  }
+}
