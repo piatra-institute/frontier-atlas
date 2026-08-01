@@ -1,0 +1,3 @@
+bound_id,graph6,family,parameters,n,m,degree_sequence,M1,M2,F,HM,irr,sigma,edge_list,note
+HV_general,P]oCGGC@?G?_@?@??_?G?@??,HV_K2nu_star_bridge,nu=2;p=11,17,18,11 4 3 2 2 2 2 1 1 1 1 1 1 1 1 1 1,172,182,1464,1828,120,1100,"[[0, 2], [0, 3], [0, 4], [0, 6], [1, 2], [1, 3], [1, 4], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [5, 11], [5, 12], [5, 13], [5, 14], [5, 15], [5, 16]]","17-vertex connected bicyclic counterexample from the K_{2,nu+1}-plus-star bridge family"
+FG_upper_literal_printed,CF,star,"K1,3",4,3,3 1 1 1,12,9,30,48,6,12,"[[0, 3], [1, 3], [2, 3]]",smallest census failure of the literal missing-square typo; corrected form is equality

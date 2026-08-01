@@ -1,0 +1,28 @@
+id,numerator,denominator,side,coefficient_fraction,coefficient_decimal,domain,training_graphs,training_extremizer_graph6,census_tested,census_broken,census_survived,census_first_graph6,census_first_n,census_first_observed_ratio,adversarial_tested,adversarial_broken,adversarial_survived,adversarial_first_graph6,adversarial_first_n,adversarial_first_family,adversarial_first_parameters,adversarial_first_observed_ratio
+M1_over_M2_lower,M1,M2,lower,1/3,0.33333333333333331,all connected graphs with n>=2,995,F~~~w,272197,1953,270244,GE~~~{,8,149/457,8931,4088,4843,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,266/799
+M1_over_F_lower,M1,F,lower,1/6,0.16666666666666666,all connected graphs with n>=2,995,F~~~w,272197,7818,264379,G???F{,8,4/25,8931,7441,1490,GsaCC?,8,broom,handle=2;leaves=6,4/25
+M1_over_HM_lower,M1,HM,lower,1/12,0.083333333333333329,all connected graphs with n>=2,995,F~~~w,272197,3628,268569,GC~~~{,8,139/1698,8931,7194,1737,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,133/1619
+irr_over_M1_upper,irr,M1,upper,5/7,0.7142857142857143,all connected graphs with n>=2,995,F??Fw,272197,2,272195,G???F{,8,3/4,8931,3099,5832,GsaCC?,8,broom,handle=2;leaves=6,3/4
+sigma_over_M1_upper,sigma,M1,upper,25/7,3.5714285714285716,all connected graphs with n>=2,995,F??Fw,272197,7,272190,G???F{,8,9/2,8931,4182,4749,GsaCC?,8,broom,handle=2;leaves=6,9/2
+M1_over_M1_per_n_upper,M1,M1/n,upper,7,7,all connected graphs with n>=2,995,F~~~w,272197,272197,0,G???F{,8,8,8931,8843,88,G]oCGG,8,HV_K2nu_star_bridge,nu=2;p=2,8
+M1_over_M2_per_m_upper,M1,M2/m,upper,7,7,all connected graphs with n>=2,995,F~~~w,272197,270864,1333,G???F{,8,8,8931,8835,96,G]oCGG,8,HV_K2nu_star_bridge,nu=2;p=2,207/28
+M2_over_F_lower,M2,F,lower,6/37,0.16216216216216217,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,7/50,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,7/50
+M2_over_HM_lower,M2,HM,lower,6/49,0.12244897959183673,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,7/64,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,7/64
+irr_over_M2_upper,irr,M2,upper,5/6,0.83333333333333337,all connected graphs with n>=2,995,F??Fw,272197,2,272195,G???F{,8,6/7,8931,1294,7637,GsaCC?,8,broom,handle=2;leaves=6,6/7
+sigma_over_M2_upper,sigma,M2,upper,25/6,4.166666666666667,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,36/7,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,36/7
+M2_over_M1_per_n_upper,M2,M1/n,upper,21,21,all connected graphs with n>=2,995,F~~~w,272197,83213,188984,G?r~~{,8,2344/111,8931,8383,548,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,3196/133
+M2_over_M2_per_m_upper,M2,M2/m,upper,21,21,all connected graphs with n>=2,995,F~~~w,272197,37990,234207,G?~~~{,8,22,8931,8262,669,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,22
+F_over_HM_upper,F,HM,upper,37/49,0.75510204081632648,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,25/32,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,25/32
+sigma_over_F_upper,sigma,F,upper,25/37,0.67567567567567566,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,18/25,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,18/25
+F_over_M1_per_n_upper,F,M1/n,upper,42,42,all connected graphs with n>=2,995,F~~~w,272197,149625,122572,G???F{,8,50,8931,8708,223,GsaCC?,8,broom,handle=2;leaves=6,50
+F_over_M2_per_m_upper,F,M2/m,upper,42,42,all connected graphs with n>=2,995,F~~~w,272197,95043,177154,G???F{,8,50,8931,8672,259,GsaCC?,8,broom,handle=2;leaves=6,50
+sigma_over_HM_upper,sigma,HM,upper,25/49,0.51020408163265307,all connected graphs with n>=2,995,F??Fw,272197,4,272193,G???F{,8,9/16,8931,3373,5558,GsaCC?,8,broom,handle=2;leaves=6,9/16
+HM_over_M1_per_n_upper,HM,M1/n,upper,84,84,all connected graphs with n>=2,995,F~~~w,272197,114996,157201,G?B~~{,8,87,8931,8662,269,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,12952/133
+HM_over_M2_per_m_upper,HM,M2/m,upper,84,84,all connected graphs with n>=2,995,F~~~w,272197,67705,204492,G?r~~{,8,25080/293,8931,8618,313,G~~~{?,8,dense_plus_pendant,clique=7;leaves=1,71236/799
+irr_over_sigma_lower,irr,sigma,lower,1/5,0.20000000000000001,connected nonregular graphs,980,F??Fw,272158,171,271987,G???F{,8,1/6,8787,5123,3664,GsaCC?,8,broom,handle=2;leaves=6,1/6
+irr_over_M1_per_n_upper,irr,M1/n,upper,5,5,all connected graphs with n>=2,995,F??Fw,272197,18,272179,G???F{,8,6,8931,4422,4509,GsaCC?,8,broom,handle=2;leaves=6,6
+irr_over_M2_per_m_upper,irr,M2/m,upper,5,5,all connected graphs with n>=2,995,F??Fw,272197,5,272192,G???F{,8,6,8931,4269,4662,GsaCC?,8,broom,handle=2;leaves=6,6
+sigma_over_M1_per_n_upper,sigma,M1/n,upper,25,25,all connected graphs with n>=2,995,F??Fw,272197,35,272162,G???F{,8,36,8931,4563,4368,GsaCC?,8,broom,handle=2;leaves=6,36
+sigma_over_M2_per_m_upper,sigma,M2/m,upper,25,25,all connected graphs with n>=2,995,F??Fw,272197,17,272180,G???F{,8,36,8931,4528,4403,GsaCC?,8,broom,handle=2;leaves=6,36
+M1_per_n_over_M2_per_m_lower,M1/n,M2/m,lower,45/56,0.8035714285714286,all connected graphs with n>=2,995,F?qkw,272197,674,271523,G?AEDs,8,4/5,8931,3983,4948,H~}CCA?,9,dense_plus_pendant,clique=5;leaves=4,77/96
+M1_per_n_over_M2_per_m_upper,M1/n,M2/m,upper,1,1,all connected graphs with n>=2,995,F~~~w,272197,0,272197,,,,8931,513,8418,P]oCGGC@?G?_@?@??_?G?@??,17,HV_K2nu_star_bridge,nu=2;p=11,1548/1547
