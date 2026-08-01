@@ -32,10 +32,12 @@ independent checker, a manifest, and the honest denominator.
 
 ## Honest tiering (read the per-category INDEX flags)
 
-- **Primary (best odds):** the pipelines, especially chemical/topological-index and
-  OEIS/degree-domination sweeps (hundreds of published bounds, many false, sub-10-vertex
-  witnesses); and the under-tested hunts (open SRG parameter rows, coverings/packings,
-  cages, snakes/coils).
+- **Primary (best odds):** LIVE pipelines that target UNPROVEN claims - machine-generated
+  conjectures (`09_domination`, `20_oeis`, TxGraffiti/Graffiti) and fresh index families
+  (`03_sombor`), plus the under-tested hunts (open SRG rows, coverings/packings, cages,
+  snakes/coils). Classical index/spectral sweeps (Zagreb, Randic, Wiener, energy) are
+  validation-only: their bounds are settled, so they only reproduce known results (the
+  first run proved this; see `pipelines/INDEX.md` re-triage).
 - **Verify first:** many hunts carry `(verify)` because the exact open cell drifts
   (Brouwer/La Jolla/LifeWiki/Catagolue/codetables update). Re-confirm the target is
   still open before spending compute, per `../SOLVER.md`.
@@ -46,7 +48,9 @@ independent checker, a manifest, and the honest denominator.
 
 ## Starting point
 
-The single highest-yield first run is a pipeline: `pipelines/01_zagreb_degree_indices`
-or the seed `graph_conjectures`. Enumerate small graphs, generate index inequalities,
-break them against extremal families. If nothing false surfaces, the survivors are
-candidate conjectures; if one breaks, that is a clean refutation, verified here.
+The engine is validated (the first run, `01_zagreb`, independently rediscovered a known
+counterexample), but it swept settled bounds, so it could only reproduce. Aim the
+validated engine at UNPROVEN claims: run `pipelines/09_domination_inequalities` or
+`20_oeis_conjectured_properties` (machine-generated, unproven) or `03_sombor_family_indices`
+(fresh) against currently-open conjectures. Breaking one resolves an open problem, and it
+is checkable here in seconds.

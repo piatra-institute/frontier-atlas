@@ -1,5 +1,7 @@
 # Batch sweep: refute graph-energy bounds and find equienergetic witnesses
 
+> **Status: SETTLED (validation-only).** These bounds are known true or known false, so a sweep only reproduces known results (the first run confirmed this). See `../INDEX.md` re-triage. Aim the engine at open/unproven conjectures instead.
+
 **Mode:** one ChatGPT Pro session, code sandbox, batch throughput.
 **Goal:** an explicit graph violating a stated energy bound, or an equienergetic non-cospectral pair, or hardened survivors. Both a refutation and a witness pair are clean wins.
 

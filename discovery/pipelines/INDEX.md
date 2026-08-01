@@ -11,6 +11,35 @@ Richness = prior likelihood a session yields a clean refutation (explicit witnes
 conjectures, refutation plausible but bounds mostly hold; **low** = valuable but witnesses are
 heavier to certify or the class rarely cracks at session scale.
 
+## Re-triage: open vs settled (this is what actually matters)
+
+The first run (`01_zagreb_degree_indices`) validated the engine but produced no new
+result: it swept *settled published inequalities*, so it only rediscovered a known
+counterexample (the Hansen-Vukicevic 17-vertex graph) and a known typo. Lesson:
+"many published bounds" means well-studied means **settled**, not winnable. A sweep
+of settled bounds can only reproduce.
+
+**The winnable mode is to target UNPROVEN claims** - named open conjectures, or
+machine-generated conjectures (TxGraffiti / Graffiti / OEIS) - where breaking one
+*resolves an open problem*. Reclassifying the 30 on that axis:
+
+- **SETTLED (validation-only, exhausted - do not expect a new result):**
+  `01_zagreb`, `02_randic_abc`, `04_distance_based`, `05_adjacency_spectral`,
+  `12_matching_independence`, `30_graph_energy`. Classical index/spectral bounds are
+  known true or known false; keep only to validate the engine.
+- **LIVE (primary - a broken claim is a real open-problem result):** everything else.
+  Best odds, run these first:
+  - `09_domination_inequalities` and `20_oeis_conjectured_properties` - machine-generated,
+    unproven, small witnesses, never hardened.
+  - `03_sombor_family_indices` - post-2021, too fresh to be settled.
+  - `11_coloring_variants` (list-colouring, Hedetniemi-adjacent - Kim-Park and Shitov
+    show these fall), `15_digraph_tournament` (Caccetta-Haggkvist),
+    `25_automaton_language` (Cerny), `06_laplacian_spectral_bounds` (Brouwer's
+    conjecture), `17_poset_lattice_inequalities` (1/3-2/3) - named OPEN conjectures.
+
+Run LIVE pipelines against *currently-open* conjectures (cite the open source; do not
+re-derive settled bounds). The table below keeps the original per-class detail.
+
 | # | slug | one-line | target class | richness |
 |---|------|----------|--------------|----------|
 | 00 | `../graph_conjectures` | generic graph-invariant inequalities (the seed pipeline) | graph invariants | high |

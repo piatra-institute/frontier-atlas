@@ -1,5 +1,7 @@
 # Batch sweep: refute degree-based topological-index inequalities
 
+> **Status: SETTLED (validation-only).** These bounds are known true or known false, so a sweep only reproduces known results (the first run confirmed this). See `../INDEX.md` re-triage. Aim the engine at open/unproven conjectures instead.
+
 **Mode:** one ChatGPT Pro session, code sandbox, batch throughput (not one problem).
 **Goal:** an explicit small graph violating a published degree-index inequality, or a set of computationally-hardened survivors. The refutation is the clean win.
 
