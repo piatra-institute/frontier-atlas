@@ -1,72 +1,65 @@
 # Frontier Atlas
 
-**200 open problems across four domains - physics, mathematics, informatics, chembiotics**
+**A verification-first workbench for AI-assisted attacks on open problems, plus a triaged bank of 200 candidate problems.**
 
-A monorepo of well-posed, unsolved problems in theoretical physics, mathematics, theoretical computer science, and computational chemistry/biology. Each is selected because a frontier AI reasoning system, a single workstation, and disciplined verification can plausibly produce a certified partial result. The filter is tractable-but-nontrivial, with machine-checkable ground truth. No quantum-gravity or Millennium-headline flagships.
+The method: a frontier model (ChatGPT Pro, Claude) searches for a small explicit witness; a second, independent system checks it exactly. Generator is not verifier. Every result ships a `CLAIM.md`, an independent checker, a manifest, and an honest denominator.
 
-Each numbered problem folder is one issue: a self-contained task holding a `README.md` and one or more numbered attempt subfolders (`01_baseline/`, `02_.../`), each with its own `prompt.md` and every artifact generated from it. A task holds multiple attempts, not a single shot.
+## What is actually winnable (read this first)
 
-## The four programs
+The wins in this method are small explicit objects a checker validates in seconds: a counterexample to a conjecture, an existence witness, a found object, a strictly beaten *loose* record. They are not: analytic proofs, physical constants, hardened optimization records, or predictions needing a wet lab.
 
-| Program | Problems | Character |
-|---|---|---|
-| [`physics/`](physics/README.md) | 50 | Quantum information, rigorous many-body, exactly-solvable models, dynamical systems, fluids/plasmas, QFT, gravitation. Certified/SAT search, symbolic mining, computer-assisted proof, bound optimization. |
-| [`mathematics/`](mathematics/README.md) | 50 | Combinatorics, discrete geometry, number theory, algebra. SAT-provable bounds, exact enumeration, symbolic mining. Problems 01-11 carry full worked packages; 12-50 are ready prompts. |
-| [`informatics/`](informatics/README.md) | 50 | Theoretical computer science: algorithms & bilinear complexity, Boolean/cryptographic functions, complexity separations, computation models & automated reasoning, discrete dynamics, quantum computation & codes. SAT, exact search, machine-checked proof. |
-| [`chembiotics/`](chembiotics/README.md) | 50 | Learned functionals, free-energy sampling, structure/ensemble prediction, generative design, genomics. Split by **where the verifier lives**: Pack A (on-machine, closed-loop) vs Pack B (empirical / wet-lab-gated). |
+Measured against that, the 200 problems triage as follows (`TRIAGE.md`, from `tools/triage.py`):
 
-Each program has a `README.md` (full index of all 50) and `STRATEGY.md` (ranking and doctrine). Chembiotics adds `STATUS_AUDIT_2026-07.md`, a dated audit of which problems' SOTA baselines have moved.
+| Tier | Shape | Count | On method? |
+|---|---|---:|---|
+| **T1** | witness-shaped (existence / counterexample / found object) | **38** | yes - the primary targets |
+| **T2** | exact-value record (construction + matching lower bound) | 62 | long shot; only loose/obscure cells |
+| **T3** | analytic proof or constant | 50 | no - out of scope for search-with-a-checker |
+| **T4** | reality-gated (chembiotics; needs wet-lab / held-out data) | 50 | no - belongs in a separate empirical program |
 
-## Shared doctrine
+Five deep attempts this session on T2 problems (cap set a(7), superpermutation s(6), bilinear rank, two covering-array numbers) produced clean *reproductions* and zero new records - the honest evidence that T2/T3/T4 do not win at session scale. Work T1, and treat the rest as a verification substrate and a reference bank.
 
-Each `STRATEGY.md` details this; in brief:
+## Two ways to work
 
-- **Intelligence-rich, resource-poor.** Pick problems where reasoning plus a workstation plus verification beats brute force.
-- **Certified partial results are the product.** Every session ends with something independently checkable: a bound with a proof trace, an exact reduction, an obstruction certificate, a verified construction, or a leakage-safe held-out result. Full resolutions are windfalls.
-- **Distrust the verifier; re-verify before every session.** Open-problem status drifts monthly. Prompts state prior art "as of mid-2026"; treat it as stale until re-checked. `FRONTIER_LOG.md` tracks external results that resolve or sit adjacent to atlas problems.
-- **Everything is auditable.** Exact or certified computation for any load-bearing claim, independent replay checkers, SHA-256 manifests, preserved search/training source.
-- **Honest reporting.** Reports state up front whether the standard was met; a partial or numerical result is never dressed as a full solution, and an in-silico prediction is never dressed as a proof.
+1. **`discovery/` - the winnable atlas (191 tasks, the center of gravity).** 30 throughput pipelines (each sweeps a whole class of claims per session) plus 160 single-witness hunts (find one object, or refute one under-tested claim), all selected on the solvability signature and grounded in real open-problem tables. See [`discovery/README.md`](discovery/README.md). The method wins on volume with cheap failure: most falsifiable claims are true, so you test hundreds to find one that is false. Start with a pipeline like `discovery/pipelines/01_zagreb_degree_indices` or the seed `discovery/graph_conjectures`.
+2. **The 200 bank, T1 first.** Curated single problems where one witness settles it. See `TRIAGE.md` for the T1 list (Life objects, an open SRG or Steiner system, MOLS-10, APN dim 8, Casas-Alvero, and the physics quantum-information existence questions).
 
-## Anatomy of an issue
+## The verification discipline (this is the durable value)
 
-A task folder (`NN_slug/`) holds a `README.md` (title, one-liner, attempts table) plus one or more attempt subfolders (`01_baseline/`, `02_.../`). Each attempt subfolder contains:
+- **Generator is not the verifier.** The searcher (ChatGPT Pro) proposes; a second system (Claude Code) re-derives every load-bearing claim with its own code. Two independent systems, per `SOLVER.md`.
+- **Ship the audit surface, not just the answer.** `CLAIM.md` states the exact proposition, the checker command with pinned versions, the trust base, the review level, and the denominator (attempts and total cost, not just the winning run). See `CLAIM_TEMPLATE.md`.
+- **Re-verify first; the frontier drifts in days.** Prior art is stale until re-checked. `FRONTIER_LOG.md` tracks external results that resolve or sit adjacent to atlas problems.
+- **Regenerate-only artifacts.** Git tracks source, checkers, reports, and SHA-256 manifests; bulky proof traces are regenerable and git-ignored (`ARTIFACTS.md`).
+- **Honest reporting.** State whether the standard was met; never dress a reproduction as a discovery, a heuristic null as a proof, or an in-silico metric as a real-world result.
 
-- `prompt.md` - the task definition: exact statement, resolution (or genuine-advance) standard with a "not accepted" list, graded certifiable targets, prior art with `(verify)` flags, an attack plan naming real tools, and auditability requirements. Physics, maths, and informatics use one closed-loop template; chembiotics uses template A or B by verifier regime. The maths originals 01-11 keep their pre-template prompt documents inside `01_baseline`.
-- Once worked: `chat.md` (transcript), scripts, and a research package - report (md/pdf), source, certificates, independent verifiers, SHA-256 manifest. A paused line leaves a `NEXT_STEPS.md`. A new approach becomes a new attempt subfolder (`02_...`, `03_...`).
+## The programs (the 200 bank)
 
-## Working protocol
+| Program | Problems | T1 (winnable) |
+|---|---|---:|
+| [`physics/`](physics/README.md) | 50 | 8 (mostly quantum-information existence) |
+| [`mathematics/`](mathematics/README.md) | 50 | 15 |
+| [`informatics/`](informatics/README.md) | 50 | 15 |
+| [`chembiotics/`](chembiotics/README.md) | 50 | 0 (all reality-gated) |
 
-Every session runs under the atlas `SOLVER.md` (agency, compute, adversarial self-verification).
-1. **Pick** a problem (each program's README flags the strongest machine-checkable starting points).
-2. **Re-verify** its current status in the literature first.
-3. **Seed** a frontier-model session with the attempt's `prompt.md`.
-4. **Preserve** the transcript as `chat.md`.
-5. **Produce** a self-contained, auditable package; keep the search/training source.
-6. **Report** honestly whether the standard was met.
-7. **Leave** a `NEXT_STEPS.md` when pausing a line.
+Each program has a `README.md` and `STRATEGY.md`. Chembiotics is reality-gated throughout and is a candidate to spin off.
 
 ## Layout
 
 ```
 frontier-atlas/
 ├── README.md            ← this file
+├── TRIAGE.md            all 200 tagged by winnability (from tools/triage.py)
+├── triage.csv           the same, machine-readable
 ├── SOLVER.md            method layer every attempt runs under
 ├── FRONTIER_LOG.md      dated ledger of external results and rescopes
 ├── CLAIM_TEMPLATE.md    per-attempt claim + checker + trust base stub
 ├── ARTIFACTS.md         what git tracks vs regenerates
 ├── .gitignore
+├── discovery/           191 winnable tasks: 30 pipelines + 160 witness hunts (see discovery/README.md)
 ├── physics/             README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── mathematics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── informatics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 └── chembiotics/         README + STRATEGY + two templates + STATUS_AUDIT + 50 task folders
 ```
 
-Each task folder holds a `README.md` plus numbered attempt subfolders:
-
-```
-physics/01_kochen_specker_minimal/
-├── README.md            ← task overview + attempts table
-└── 01_baseline/
-    ├── prompt.md
-    └── (chat, scripts, certificates, package … as the attempt is worked)
-```
+A worked task holds a `README.md` plus dated run subfolders, each with `prompt.md`, `chat.md`, `CLAIM.md`, source, certificates, and `SHA256SUMS`. See `mathematics/17_cap_set_n7` for a fully worked example.

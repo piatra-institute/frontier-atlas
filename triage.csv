@@ -1,0 +1,201 @@
+domain,problem,shape,tier,action
+physics,01_kochen_specker_minimal,R,T2,deprioritise; only loose/obscure cells
+physics,02_yang_baxter_9x9,P,T3,reference only; out of scope
+physics,03_feynman_periods_bessel,P,T3,reference only; out of scope
+physics,04_percolation_critical_polynomials,P,T3,reference only; out of scope
+physics,05_mub_dimension_6,W,T1,keep, sharpen toward the witness
+physics,06_ising_susceptibility_2d,C,T3,reference only; out of scope
+physics,07_ame_existence_table,W,T1,keep, sharpen toward the witness
+physics,08_central_configurations,P,T3,reference only; out of scope
+physics,09_additivity_counterexample,W,T1,keep, sharpen toward the witness
+physics,10_npt_bound_entanglement,W,T1,keep, sharpen toward the witness
+physics,11_zauner_sic_povm,W,T1,keep, sharpen toward the witness
+physics,12_hard_squares_entropy,C,T3,reference only; out of scope
+physics,13_monomer_dimer,C,T3,reference only; out of scope
+physics,14_ice_residual_entropy,C,T3,reference only; out of scope
+physics,15_saw_connective_constant,C,T3,reference only; out of scope
+physics,16_chiral_potts_correlations,P,T3,reference only; out of scope
+physics,17_six_vertex_arctic,P,T3,reference only; out of scope
+physics,18_grothendieck_constant,C,T3,reference only; out of scope
+physics,19_triangular_billiards,P,T3,reference only; out of scope
+physics,20_kam_golden_torus,C,T3,reference only; out of scope
+physics,21_feigenbaum_constants,C,T3,reference only; out of scope
+physics,22_lyapunov_closed_forms,P,T3,reference only; out of scope
+physics,23_meander_exponent,C,T3,reference only; out of scope
+physics,24_abelian_sandpile,P,T3,reference only; out of scope
+physics,25_kpz_2plus1,P,T3,reference only; out of scope
+physics,26_convection_bounds,P,T3,reference only; out of scope
+physics,27_modular_bootstrap,P,T3,reference only; out of scope
+physics,28_lieb_thirring,C,T3,reference only; out of scope
+physics,29_self_correcting_memory,W,T1,keep, sharpen toward the witness
+physics,30_haldane_gap,P,T3,reference only; out of scope
+physics,31_magic_angles,P,T3,reference only; out of scope
+physics,32_neel_order_spin_half,P,T3,reference only; out of scope
+physics,33_almost_mathieu,C,T3,reference only; out of scope
+physics,34_thooft_model,P,T3,reference only; out of scope
+physics,35_bcj_duality,P,T3,reference only; out of scope
+physics,36_choptuik_constants,C,T3,reference only; out of scope
+physics,37_kelvin_problem,R,T2,deprioritise; only loose/obscure cells
+physics,38_ising_in_field,P,T3,reference only; out of scope
+physics,39_crystallization,P,T3,reference only; out of scope
+physics,40_grad_conjecture,W,T1,keep, sharpen toward the witness
+physics,41_fast_dynamo,P,T3,reference only; out of scope
+physics,42_parker_conjecture,P,T3,reference only; out of scope
+physics,43_penrose_inequality,P,T3,reference only; out of scope
+physics,44_ionization_conjecture,P,T3,reference only; out of scope
+physics,45_spin_glass_transition,P,T3,reference only; out of scope
+physics,46_area_law_2d,P,T3,reference only; out of scope
+physics,47_bec_thermodynamic,P,T3,reference only; out of scope
+physics,48_anderson_2d,P,T3,reference only; out of scope
+physics,49_mbl_existence,W,T1,keep, sharpen toward the witness
+physics,50_standard_map_entropy,P,T3,reference only; out of scope
+mathematics,01_ramsey_R5_5,R,T2,deprioritise; only loose/obscure cells
+mathematics,02_hadamard_668,W,T1,keep, sharpen toward the witness
+mathematics,03_conway_99_graph,W,T1,keep, sharpen toward the witness
+mathematics,04_projective_plane_12,W,T1,keep, sharpen toward the witness
+mathematics,05_hadwiger_nelson,R,T2,deprioritise; only loose/obscure cells
+mathematics,06_kissing_number_11,R,T2,deprioritise; only loose/obscure cells
+mathematics,07_moore_graph_degree_57,W,T1,keep, sharpen toward the witness
+mathematics,08_lonely_runner,P,T3,reference only; out of scope
+mathematics,09_union_closed_sets,W,T1,keep, sharpen toward the witness
+mathematics,10_jacobian_dimension_2,P,T3,reference only; out of scope
+mathematics,11_kelvin_weaire_phelan_optimizer,R,T2,deprioritise; only loose/obscure cells
+mathematics,12_schur_number_6,R,T2,deprioritise; only loose/obscure cells
+mathematics,13_ramsey_r46,R,T2,deprioritise; only loose/obscure cells
+mathematics,14_ramsey_r3k,R,T2,deprioritise; only loose/obscure cells
+mathematics,15_ramsey_multicolor_3333,R,T2,deprioritise; only loose/obscure cells
+mathematics,16_van_der_waerden_w27,R,T2,deprioritise; only loose/obscure cells
+mathematics,17_cap_set_n7,R,T2,deprioritise; only loose/obscure cells
+mathematics,18_erdos_straus,P,T3,reference only; out of scope
+mathematics,19_postage_stamp_bases,R,T2,deprioritise; only loose/obscure cells
+mathematics,20_sidon_difference_families,R,T2,deprioritise; only loose/obscure cells
+mathematics,21_singmaster,P,T3,reference only; out of scope
+mathematics,22_heilbronn_triangle,R,T2,deprioritise; only loose/obscure cells
+mathematics,23_borsuk_conjecture,W,T1,keep, sharpen toward the witness
+mathematics,24_tammes_problem,R,T2,deprioritise; only loose/obscure cells
+mathematics,25_reinhardt_octagon,R,T2,deprioritise; only loose/obscure cells
+mathematics,26_circle_packing,R,T2,deprioritise; only loose/obscure cells
+mathematics,27_no_three_in_line,R,T2,deprioritise; only loose/obscure cells
+mathematics,28_srg_existence,W,T1,keep, sharpen toward the witness
+mathematics,29_cage_orders,R,T2,deprioritise; only loose/obscure cells
+mathematics,30_zarankiewicz_crossing,R,T2,deprioritise; only loose/obscure cells
+mathematics,31_guy_crossing_kn,R,T2,deprioritise; only loose/obscure cells
+mathematics,32_second_neighborhood,W,T1,keep, sharpen toward the witness
+mathematics,33_graceful_labeling,W,T1,keep, sharpen toward the witness
+mathematics,34_mols_order_10,W,T1,keep, sharpen toward the witness
+mathematics,35_optimal_binary_codes,R,T2,deprioritise; only loose/obscure cells
+mathematics,36_covering_codes_football_pool,R,T2,deprioritise; only loose/obscure cells
+mathematics,37_costas_arrays,W,T1,keep, sharpen toward the witness
+mathematics,38_maximal_determinant,R,T2,deprioritise; only loose/obscure cells
+mathematics,39_steiner_systems,W,T1,keep, sharpen toward the witness
+mathematics,40_lehmer_mahler_measure,P,T3,reference only; out of scope
+mathematics,41_casas_alvero,W,T1,keep, sharpen toward the witness
+mathematics,42_markov_uniqueness,P,T3,reference only; out of scope
+mathematics,43_alon_tarsi,P,T3,reference only; out of scope
+mathematics,44_rota_basis,W,T1,keep, sharpen toward the witness
+mathematics,45_erdos_moser,P,T3,reference only; out of scope
+mathematics,46_one_third_two_thirds,P,T3,reference only; out of scope
+mathematics,47_ryser_brualdi_stein,W,T1,keep, sharpen toward the witness
+mathematics,48_sunflower_conjecture,P,T3,reference only; out of scope
+mathematics,49_kobon_triangles,R,T2,deprioritise; only loose/obscure cells
+mathematics,50_thomson_problem,R,T2,deprioritise; only loose/obscure cells
+informatics,01_sorting_networks,R,T2,deprioritise; only loose/obscure cells
+informatics,02_sorting_comparisons,R,T2,deprioritise; only loose/obscure cells
+informatics,03_matrix_mult_rank,R,T2,deprioritise; only loose/obscure cells
+informatics,04_addition_chains,R,T2,deprioritise; only loose/obscure cells
+informatics,05_bilinear_complexity,R,T2,deprioritise; only loose/obscure cells
+informatics,06_boolean_circuit_size,R,T2,deprioritise; only loose/obscure cells
+informatics,07_matrix_rigidity,R,T2,deprioritise; only loose/obscure cells
+informatics,08_apn_permutation,W,T1,keep, sharpen toward the witness
+informatics,09_max_nonlinearity_odd,R,T2,deprioritise; only loose/obscure cells
+informatics,10_bent_classification,R,T2,deprioritise; only loose/obscure cells
+informatics,11_low_diff_uniformity,R,T2,deprioritise; only loose/obscure cells
+informatics,12_algebraic_immunity,R,T2,deprioritise; only loose/obscure cells
+informatics,13_resilient_functions,R,T2,deprioritise; only loose/obscure cells
+informatics,14_planar_functions,W,T1,keep, sharpen toward the witness
+informatics,15_complete_mappings,R,T2,deprioritise; only loose/obscure cells
+informatics,16_log_rank,W,T1,keep, sharpen toward the witness
+informatics,17_sensitivity_separations,W,T1,keep, sharpen toward the witness
+informatics,18_query_separations,W,T1,keep, sharpen toward the witness
+informatics,19_exact_query_complexity,R,T2,deprioritise; only loose/obscure cells
+informatics,20_formula_lower_bounds,R,T2,deprioritise; only loose/obscure cells
+informatics,21_monotone_complexity,R,T2,deprioritise; only loose/obscure cells
+informatics,22_proof_complexity,R,T2,deprioritise; only loose/obscure cells
+informatics,23_busy_beaver,R,T2,deprioritise; only loose/obscure cells
+informatics,24_universal_turing_machine,R,T2,deprioritise; only loose/obscure cells
+informatics,25_wang_tiles,W,T1,keep, sharpen toward the witness
+informatics,26_post_correspondence,W,T1,keep, sharpen toward the witness
+informatics,27_tag_systems,W,T1,keep, sharpen toward the witness
+informatics,28_rewriting_termination,W,T1,keep, sharpen toward the witness
+informatics,29_state_complexity,W,T1,keep, sharpen toward the witness
+informatics,30_universal_cellular_automaton,W,T1,keep, sharpen toward the witness
+informatics,31_life_spaceships,W,T1,keep, sharpen toward the witness
+informatics,32_life_oscillators,W,T1,keep, sharpen toward the witness
+informatics,33_gardens_of_eden,W,T1,keep, sharpen toward the witness
+informatics,34_superpermutations,R,T2,deprioritise; only loose/obscure cells
+informatics,35_covering_arrays,R,T2,deprioritise; only loose/obscure cells
+informatics,36_t_count_synthesis,R,T2,deprioritise; only loose/obscure cells
+informatics,37_clifford_cnot_synthesis,R,T2,deprioritise; only loose/obscure cells
+informatics,38_quantum_code_parameters,R,T2,deprioritise; only loose/obscure cells
+informatics,39_quantum_mds_codes,R,T2,deprioritise; only loose/obscure cells
+informatics,40_magic_state_distillation,R,T2,deprioritise; only loose/obscure cells
+informatics,41_stabilizer_rank,R,T2,deprioritise; only loose/obscure cells
+informatics,42_quantum_query_complexity,R,T2,deprioritise; only loose/obscure cells
+informatics,43_quantum_circuit_lower_bounds,R,T2,deprioritise; only loose/obscure cells
+informatics,44_superstrings_debruijn,R,T2,deprioritise; only loose/obscure cells
+informatics,45_coin_weighing,R,T2,deprioritise; only loose/obscure cells
+informatics,46_selection_networks,R,T2,deprioritise; only loose/obscure cells
+informatics,47_arithmetic_circuits,R,T2,deprioritise; only loose/obscure cells
+informatics,48_octal_games_periodicity,W,T1,keep, sharpen toward the witness
+informatics,49_cerny_synchronizing,R,T2,deprioritise; only loose/obscure cells
+informatics,50_pattern_avoidance,R,T2,deprioritise; only loose/obscure cells
+chembiotics,A01,RG,T4,spin off into an empirical program
+chembiotics,A02,RG,T4,spin off into an empirical program
+chembiotics,A03,RG,T4,spin off into an empirical program
+chembiotics,A04,RG,T4,spin off into an empirical program
+chembiotics,A05,RG,T4,spin off into an empirical program
+chembiotics,A06,RG,T4,spin off into an empirical program
+chembiotics,A07,RG,T4,spin off into an empirical program
+chembiotics,A08,RG,T4,spin off into an empirical program
+chembiotics,A09,RG,T4,spin off into an empirical program
+chembiotics,A10,RG,T4,spin off into an empirical program
+chembiotics,A11,RG,T4,spin off into an empirical program
+chembiotics,A12,RG,T4,spin off into an empirical program
+chembiotics,A13,RG,T4,spin off into an empirical program
+chembiotics,A14,RG,T4,spin off into an empirical program
+chembiotics,A15,RG,T4,spin off into an empirical program
+chembiotics,A16,RG,T4,spin off into an empirical program
+chembiotics,A17,RG,T4,spin off into an empirical program
+chembiotics,A18,RG,T4,spin off into an empirical program
+chembiotics,A19,RG,T4,spin off into an empirical program
+chembiotics,A20,RG,T4,spin off into an empirical program
+chembiotics,A21,RG,T4,spin off into an empirical program
+chembiotics,B01,RG,T4,spin off into an empirical program
+chembiotics,B02,RG,T4,spin off into an empirical program
+chembiotics,B03,RG,T4,spin off into an empirical program
+chembiotics,B04,RG,T4,spin off into an empirical program
+chembiotics,B05,RG,T4,spin off into an empirical program
+chembiotics,B06,RG,T4,spin off into an empirical program
+chembiotics,B07,RG,T4,spin off into an empirical program
+chembiotics,B08,RG,T4,spin off into an empirical program
+chembiotics,B09,RG,T4,spin off into an empirical program
+chembiotics,B10,RG,T4,spin off into an empirical program
+chembiotics,B11,RG,T4,spin off into an empirical program
+chembiotics,B12,RG,T4,spin off into an empirical program
+chembiotics,B13,RG,T4,spin off into an empirical program
+chembiotics,B14,RG,T4,spin off into an empirical program
+chembiotics,B15,RG,T4,spin off into an empirical program
+chembiotics,B16,RG,T4,spin off into an empirical program
+chembiotics,B17,RG,T4,spin off into an empirical program
+chembiotics,B18,RG,T4,spin off into an empirical program
+chembiotics,B19,RG,T4,spin off into an empirical program
+chembiotics,B20,RG,T4,spin off into an empirical program
+chembiotics,B21,RG,T4,spin off into an empirical program
+chembiotics,B22,RG,T4,spin off into an empirical program
+chembiotics,B23,RG,T4,spin off into an empirical program
+chembiotics,B24,RG,T4,spin off into an empirical program
+chembiotics,B25,RG,T4,spin off into an empirical program
+chembiotics,B26,RG,T4,spin off into an empirical program
+chembiotics,B27,RG,T4,spin off into an empirical program
+chembiotics,B28,RG,T4,spin off into an empirical program
+chembiotics,B29,RG,T4,spin off into an empirical program
