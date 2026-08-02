@@ -1,0 +1,19 @@
+{
+  "factor_graphs": 142,
+  "factor_orders": "2..6",
+  "unordered_pairs": 10153,
+  "minimum_slack": 0,
+  "maximum_slack": 6,
+  "equality_pairs": 766,
+  "violations": 0,
+  "max_search_nodes": 8244,
+  "slack_distribution": {
+    "0": 766,
+    "1": 1494,
+    "2": 4488,
+    "3": 1933,
+    "4": 1427,
+    "5": 21,
+    "6": 24
+  }
+}

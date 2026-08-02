@@ -1,0 +1,79 @@
+{
+  "structured_factors": 34,
+  "core_factors": 3,
+  "pairs": 102,
+  "factor_order_max": 18,
+  "product_order_max": 54,
+  "minimum_slack": 0,
+  "maximum_slack": 4,
+  "equalities": 58,
+  "violations": 0,
+  "independent_ilp_crosschecks": 45,
+  "all_crosschecks_agree": true,
+  "elapsed_seconds": 21.758726119995117,
+  "by_family": {
+    "caterpillar": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 9,
+      "violations": 0
+    },
+    "complete_multipartite": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 7,
+      "violations": 0
+    },
+    "corona": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 12,
+      "violations": 0
+    },
+    "generalized_petersen": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 5,
+      "violations": 0
+    },
+    "grid": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 5,
+      "violations": 0
+    },
+    "kneser": {
+      "factors": 2,
+      "pairs": 6,
+      "min_slack": 0,
+      "equalities": 4,
+      "violations": 0
+    },
+    "random_cubic": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 4,
+      "violations": 0
+    },
+    "spider": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 8,
+      "violations": 0
+    },
+    "torus": {
+      "factors": 4,
+      "pairs": 12,
+      "min_slack": 0,
+      "equalities": 4,
+      "violations": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+feasible=0 nodes=7268 memo=7091 seconds=0.00351105 set=

@@ -1,0 +1,90 @@
+{
+  "graphs": 3456,
+  "regular": 165,
+  "trees": 1629,
+  "tx_regular_violations": 0,
+  "tx_regular_min_slack": 0,
+  "families": [
+    {
+      "family": "corona",
+      "graphs": 142,
+      "regular": 0,
+      "c3_violations": 0,
+      "min_c3_slack": null,
+      "max_i_over_gamma": 1.0,
+      "max_gt_over_gamma": 1.0
+    },
+    {
+      "family": "spider",
+      "graphs": 1122,
+      "regular": 0,
+      "c3_violations": 0,
+      "min_c3_slack": null,
+      "max_i_over_gamma": 1.0,
+      "max_gt_over_gamma": 2.0
+    },
+    {
+      "family": "complete_multipartite",
+      "graphs": 1578,
+      "regular": 40,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 4.5,
+      "max_gt_over_gamma": 2.0
+    },
+    {
+      "family": "generalized_petersen",
+      "graphs": 14,
+      "regular": 14,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 1.3333333333333333,
+      "max_gt_over_gamma": 2.0
+    },
+    {
+      "family": "kneser",
+      "graphs": 2,
+      "regular": 2,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 1.0,
+      "max_gt_over_gamma": 1.3333333333333333
+    },
+    {
+      "family": "grid",
+      "graphs": 13,
+      "regular": 1,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 1.2,
+      "max_gt_over_gamma": 1.5
+    },
+    {
+      "family": "torus",
+      "graphs": 5,
+      "regular": 5,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 1.3333333333333333,
+      "max_gt_over_gamma": 1.3333333333333333
+    },
+    {
+      "family": "random_cubic",
+      "graphs": 108,
+      "regular": 108,
+      "c3_violations": 0,
+      "min_c3_slack": 0,
+      "max_i_over_gamma": 1.5,
+      "max_gt_over_gamma": 2.0
+    },
+    {
+      "family": "caterpillar",
+      "graphs": 622,
+      "regular": 0,
+      "c3_violations": 0,
+      "min_c3_slack": null,
+      "max_i_over_gamma": 4.5,
+      "max_gt_over_gamma": 2.0
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "Delta": 3,
+    "claim": "3*gamma <= n + Delta",
+    "delta": 1,
+    "edges": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "expected": {
+      "gamma": 4
+    },
+    "gamma_certificate": {
+      "all_smaller_sizes_exhausted": true,
+      "optimum": 4,
+      "rejected_domination_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 28,
+        "3": 56,
+        "4": 0
+      },
+      "rejected_independence_by_size": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "tested_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 28,
+        "3": 56,
+        "4": 1
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "graph6": "G?`DE_",
+    "independent_domination_certificate": {
+      "all_smaller_sizes_exhausted": true,
+      "optimum": 4,
+      "rejected_domination_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 21,
+        "3": 22,
+        "4": 0
+      },
+      "rejected_independence_by_size": {
+        "0": 0,
+        "1": 0,
+        "2": 7,
+        "3": 34,
+        "4": 0
+      },
+      "tested_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 28,
+        "3": 56,
+        "4": 1
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "inequality_evaluation": {
+      "lhs": 12,
+      "rhs": 11,
+      "violation_margin": 1
+    },
+    "m": 7,
+    "n": 8,
+    "name": "gamma_affine_counterexample"
+  },
+  {
+    "Delta": 4,
+    "claim": "2*i <= 3*gamma",
+    "delta": 1,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "expected": {
+      "gamma": 2,
+      "independent_domination": 4
+    },
+    "gamma_certificate": {
+      "all_smaller_sizes_exhausted": true,
+      "optimum": 2,
+      "rejected_domination_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 27
+      },
+      "rejected_independence_by_size": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "tested_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 28
+      },
+      "witness": [
+        6,
+        7
+      ]
+    },
+    "graph6": "G??F?{",
+    "independent_domination_certificate": {
+      "all_smaller_sizes_exhausted": true,
+      "optimum": 4,
+      "rejected_domination_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 21,
+        "3": 26,
+        "4": 3
+      },
+      "rejected_independence_by_size": {
+        "0": 0,
+        "1": 0,
+        "2": 7,
+        "3": 30,
+        "4": 1
+      },
+      "tested_by_size": {
+        "0": 1,
+        "1": 8,
+        "2": 28,
+        "3": 56,
+        "4": 5
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "inequality_evaluation": {
+      "lhs": 8,
+      "rhs": 6,
+      "violation_margin": 2
+    },
+    "m": 7,
+    "n": 8,
+    "name": "independent_ratio_counterexample"
+  }
+]

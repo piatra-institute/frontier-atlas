@@ -1,0 +1,25 @@
+{
+  "graphs_checked": 1196,
+  "all_connected_graphs_through_n": 7,
+  "deterministic_samples_n8": 100,
+  "deterministic_samples_n9": 100,
+  "parameters_recomputed": [
+    "gamma",
+    "gamma_t",
+    "independent_domination",
+    "connected_domination",
+    "roman_domination",
+    "paired_domination",
+    "alpha",
+    "tau",
+    "min_maximal_matching"
+  ],
+  "value_mismatch_graphs": 0,
+  "stored_certificate_failure_graphs": 0,
+  "all_agree": true,
+  "second_methods": {
+    "vertex_subset_parameters": "direct cardinality-ordered combination search",
+    "roman_domination": "explicit ternary labelling enumeration",
+    "saturation_number": "binary edge ILP with matching and edge-domination constraints"
+  }
+}
