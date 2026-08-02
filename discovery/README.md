@@ -1,6 +1,6 @@
 # Discovery: the winnable atlas
 
-191 tasks selected on the solvability signature (small explicit witness, cheap exact
+192 tasks selected on the solvability signature (small explicit witness, cheap exact
 checker, under-tested, plausibly open or false, one-sided). This is the rebuilt
 center of the atlas: where a win is actually reachable at session scale, unlike the
 legacy record/proof/reality-gated bank. Every task was generated with grounded
@@ -11,7 +11,7 @@ citations (named tables and databases, no fabricated arXiv IDs) and honest
 
 | set | count | shape | index |
 |---|---:|---|---|
-| `pipelines/` | 30 (+1 seed) | batch refutation over a class; one session tests hundreds of claims | [INDEX](pipelines/INDEX.md) |
+| `pipelines/` | 31 (+1 seed) | batch refutation over a class; one session tests hundreds of claims | [INDEX](pipelines/INDEX.md) |
 | `graph_conjectures/` | 1 | the seed pipeline (generic graph-invariant inequalities) | - |
 | `hunts/combinatorics/` | 45 | find an object / refute a claim: SRGs, designs, cages, coverings, snakes | [INDEX](hunts/combinatorics/INDEX.md) |
 | `hunts/tcs/` | 45 | Life objects, cellular automata, octal games, Boolean functions, automata | [INDEX](hunts/tcs/INDEX.md) |

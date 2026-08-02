@@ -21,7 +21,7 @@ Five deep attempts this session on T2 problems (cap set a(7), superpermutation s
 
 ## Two ways to work
 
-1. **`discovery/` - the winnable atlas (191 tasks, the center of gravity).** 30 throughput pipelines (each sweeps a whole class of claims per session) plus 160 single-witness hunts (find one object, or refute one under-tested claim), all selected on the solvability signature and grounded in real open-problem tables. See [`discovery/README.md`](discovery/README.md). The method wins on volume with cheap failure: most falsifiable claims are true, so you test hundreds to find one that is false. Start with a pipeline like `discovery/pipelines/01_zagreb_degree_indices` or the seed `discovery/graph_conjectures`.
+1. **`discovery/` - the winnable atlas (192 tasks, the center of gravity).** 31 throughput pipelines (each sweeps a whole class of claims per session) plus 160 single-witness hunts (find one object, or refute one under-tested claim). NOTE (per `BREAKTHROUGH_STRATEGY.md`): these are mostly *topics*, not pinned experiments, and a cheap checker is an admission condition, not a tractability forecast - open, reachable, and valuable are three separate tests. The next step is not more prompts but scouted `TARGET_CARD`s (pinned statement, fresh open-status, named search edge). See [`discovery/README.md`](discovery/README.md) and [`TARGET_CARD_TEMPLATE.md`](TARGET_CARD_TEMPLATE.md).
 2. **The 200 bank, T1 first.** Curated single problems where one witness settles it. See `TRIAGE.md` for the T1 list (Life objects, an open SRG or Steiner system, MOLS-10, APN dim 8, Casas-Alvero, and the physics quantum-information existence questions).
 
 ## The verification discipline (this is the durable value)
@@ -53,9 +53,12 @@ frontier-atlas/
 ├── SOLVER.md            method layer every attempt runs under
 ├── FRONTIER_LOG.md      dated ledger of external results and rescopes
 ├── CLAIM_TEMPLATE.md    per-attempt claim + checker + trust base stub
+├── TARGET_CARD_TEMPLATE.md  atomic unit: pinned statement + admission gates + scorecard
+├── BREAKTHROUGH_STRATEGY.md deep critique + operating plan (funnel, gates, portfolio)
 ├── ARTIFACTS.md         what git tracks vs regenerates
 ├── .gitignore
-├── discovery/           191 winnable tasks: 30 pipelines + 160 witness hunts (see discovery/README.md)
+├── tools/               triage.py (winnability tags) + audit.py (control-plane checks)
+├── discovery/           192 winnable tasks: 31 pipelines + 160 witness hunts (see discovery/README.md)
 ├── physics/             README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── mathematics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
 ├── informatics/         README + STRATEGY + PROMPT_TEMPLATE + 50 task folders
