@@ -1,0 +1,6 @@
+{
+  "full_checker_ready": false,
+  "matroid_encoding_present": true,
+  "reason": "matroid-to-Q/Y recurrence not independently vendored",
+  "sage_available": false
+}

@@ -1,0 +1,11 @@
+{
+  "base_n": 2,
+  "bunkbed_edges": 4,
+  "counterexample": false,
+  "cross_weight": "6",
+  "difference_weight": "2",
+  "forests": 15,
+  "lambda": "1",
+  "normalizer": "15",
+  "same_weight": "8"
+}

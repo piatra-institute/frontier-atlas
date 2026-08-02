@@ -1,0 +1,9 @@
+{
+  "bits": "000000000",
+  "conjectured_minimum_float": 2.3268462696046543,
+  "counterexample_at_1e-10": false,
+  "gap_rho_minus_target": 1.6731537303953452,
+  "n": 8,
+  "spectral_radius_float": 3.9999999999999996,
+  "support_ok": true
+}

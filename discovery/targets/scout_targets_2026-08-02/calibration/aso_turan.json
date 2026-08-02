@@ -1,0 +1,11 @@
+{
+  "ASO_Turan": 27.712812921102042,
+  "ASO_graph": 27.712812921102042,
+  "difference": 0.0,
+  "equality_case": true,
+  "k": 3,
+  "m": 12,
+  "n": 6,
+  "strict_counterexample": false,
+  "valid_k_partition": true
+}

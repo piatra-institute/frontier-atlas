@@ -1,0 +1,19 @@
+{
+  "sequence": "nSeWwSs",
+  "cut": "horizontal parallelogram",
+  "v1": [
+    38,
+    38
+  ],
+  "v2": [
+    28,
+    0
+  ],
+  "n": 557,
+  "k": 6,
+  "expected_distance": 10,
+  "routing_before": 236,
+  "routing_after": 140,
+  "n_total": 1248,
+  "circuit_file": "source_artifacts/UNRESOLVED_horizontal.stim"
+}

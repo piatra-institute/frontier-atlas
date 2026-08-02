@@ -1,0 +1,19 @@
+{
+  "sequence": "nSeWwSs",
+  "cut": "rotated",
+  "v1": [
+    -14,
+    14
+  ],
+  "v2": [
+    29,
+    29
+  ],
+  "n": 437,
+  "k": 6,
+  "expected_distance": 10,
+  "routing_before": 194,
+  "routing_after": 112,
+  "n_total": 980,
+  "circuit_file": "source_artifacts/UNRESOLVED_rotated.stim"
+}

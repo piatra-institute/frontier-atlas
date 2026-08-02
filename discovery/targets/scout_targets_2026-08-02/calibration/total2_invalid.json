@@ -1,0 +1,24 @@
+{
+  "Delta": 4,
+  "bound": 4,
+  "counterexample_certificate": false,
+  "delta": 4,
+  "individual_total2dom": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "m": 10,
+  "n": 5,
+  "partition_size": 5,
+  "partners": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "valid_total2_coalition_partition": false
+}

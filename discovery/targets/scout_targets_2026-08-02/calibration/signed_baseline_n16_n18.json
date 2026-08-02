@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "baseline": [
+    {
+      "absolute_error": 2.220446049250313e-15,
+      "classes": 131072,
+      "minimum": 2.694804747545855,
+      "n": 16,
+      "optimizer_bits": "10101010101010110",
+      "pass_1e-9": true,
+      "target": 2.6948047475458528
+    },
+    {
+      "absolute_error": 8.881784197001252e-16,
+      "classes": 524288,
+      "minimum": 2.7224022714892406,
+      "n": 18,
+      "optimizer_bits": "1010101010101010110",
+      "pass_1e-9": true,
+      "target": 2.7224022714892397
+    }
+  ]
+}

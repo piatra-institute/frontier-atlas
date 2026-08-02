@@ -1,0 +1,8 @@
+{
+  "full_checker_ready": false,
+  "length_ok": true,
+  "matches_1e-10": true,
+  "max_abs_error": 0.0,
+  "n": 4,
+  "reason": "E_n is not independently constructed from Hermite roots"
+}

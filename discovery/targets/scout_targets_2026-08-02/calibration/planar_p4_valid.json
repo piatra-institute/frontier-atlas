@@ -1,0 +1,9 @@
+{
+  "Delta": 2,
+  "colors_used": 2,
+  "note": "No lower-bound/UNSAT proof is checked by this script.",
+  "planar": true,
+  "proper": true,
+  "uniquely_restricted": true,
+  "valid_upper_certificate": true
+}

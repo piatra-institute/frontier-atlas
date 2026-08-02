@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "burnside_orbits": 60,
+      "dihedral_orbits": 60,
+      "distinct_dihedral_actions_on_classes": 16,
+      "enumeration_seconds": 0.0008011769996301155,
+      "n": 8,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 8.533333333333333,
+      "setup_seconds": 0.005779664000328921,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 512
+    },
+    {
+      "burnside_orbits": 156,
+      "dihedral_orbits": 156,
+      "distinct_dihedral_actions_on_classes": 20,
+      "enumeration_seconds": 0.003906566000296152,
+      "n": 10,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 13.128205128205128,
+      "setup_seconds": 0.008041848000175378,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 2048
+    },
+    {
+      "burnside_orbits": 448,
+      "dihedral_orbits": 448,
+      "distinct_dihedral_actions_on_classes": 24,
+      "enumeration_seconds": 0.017645130999881076,
+      "n": 12,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 18.285714285714285,
+      "setup_seconds": 0.009295369000028586,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 8192
+    },
+    {
+      "burnside_orbits": 1374,
+      "dihedral_orbits": 1374,
+      "distinct_dihedral_actions_on_classes": 28,
+      "enumeration_seconds": 0.0788005250005881,
+      "n": 14,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 23.848617176128094,
+      "setup_seconds": 0.011755647000427416,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 32768
+    },
+    {
+      "burnside_orbits": 4500,
+      "dihedral_orbits": 4500,
+      "distinct_dihedral_actions_on_classes": 32,
+      "enumeration_seconds": 0.35828923899953224,
+      "n": 16,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 29.127111111111113,
+      "setup_seconds": 0.015437373000168009,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 131072
+    },
+    {
+      "burnside_orbits": 15370,
+      "dihedral_orbits": 15370,
+      "distinct_dihedral_actions_on_classes": 36,
+      "enumeration_seconds": 1.5610214649996124,
+      "n": 18,
+      "orbit_count_matches_burnside": true,
+      "reduction_factor": 34.11112556929083,
+      "setup_seconds": 0.02191472499998781,
+      "spectral_invariance_samples_passed": true,
+      "switching_classes": 524288
+    }
+  ]
+}

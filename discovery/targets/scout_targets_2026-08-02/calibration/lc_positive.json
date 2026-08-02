@@ -1,0 +1,10 @@
+{
+  "condensed_LC_equivalent": true,
+  "condensed_orbit_size": 11,
+  "condition_G": true,
+  "condition_Gprime": true,
+  "counterexample": false,
+  "original_orbit_size": 11,
+  "originals_LC_equivalent": true,
+  "sequence_proves_original_equivalence": true
+}

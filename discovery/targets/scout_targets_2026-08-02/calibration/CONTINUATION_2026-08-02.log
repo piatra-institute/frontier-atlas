@@ -1,0 +1,155 @@
+{
+  "condensed_LC_equivalent": true,
+  "condensed_orbit_size": 11,
+  "condition_G": true,
+  "condition_Gprime": false,
+  "counterexample": false,
+  "original_orbit_size": 11,
+  "originals_LC_equivalent": true,
+  "sequence_proves_original_equivalence": true
+}
+{
+  "base_n": 2,
+  "bunkbed_edges": 4,
+  "counterexample": false,
+  "cross_weight": "6",
+  "difference_weight": "2",
+  "forests": 15,
+  "lambda": "1",
+  "normalizer": "15",
+  "same_weight": "8"
+}
+{
+  "counterexample": false,
+  "in_domain": true,
+  "n": 24,
+  "representation": [
+    8,
+    16
+  ],
+  "terms": 2
+}
+{
+  "counterexample": false,
+  "in_domain": false,
+  "n": 23,
+  "representation": null,
+  "terms": null
+}
+{
+  "counterexample": false,
+  "difference": 0,
+  "k": 2,
+  "n": 6,
+  "z_G_k": 12,
+  "z_Pn_k": 12
+}
+{
+  "counterexample": false,
+  "difference": -6,
+  "k": 2,
+  "n": 6,
+  "z_G_k": 6,
+  "z_Pn_k": 12
+}
+{
+  "Delta": 2,
+  "colors_used": 2,
+  "note": "No lower-bound/UNSAT proof is checked by this script.",
+  "planar": true,
+  "proper": true,
+  "uniquely_restricted": true,
+  "valid_upper_certificate": true
+}
+{
+  "Delta": 2,
+  "colors_used": 2,
+  "note": "No lower-bound/UNSAT proof is checked by this script.",
+  "planar": true,
+  "proper": false,
+  "uniquely_restricted": false,
+  "valid_upper_certificate": false
+}
+{
+  "coefficients": [
+    1,
+    3,
+    2
+  ],
+  "log_concave": true,
+  "nonnegative": true,
+  "tests": [
+    {
+      "i": 1,
+      "lhs": 9,
+      "pass": true,
+      "rhs": 2
+    }
+  ]
+}
+{
+  "coefficients": [
+    1,
+    1,
+    2
+  ],
+  "log_concave": false,
+  "nonnegative": true,
+  "tests": [
+    {
+      "i": 1,
+      "lhs": 1,
+      "pass": false,
+      "rhs": 2
+    }
+  ]
+}
+{
+  "full_checker_ready": false,
+  "reason": "exact eigenvalue recomputation not vendored",
+  "sage_available": false,
+  "schema_ok": true
+}
+{
+  "full_checker_ready": false,
+  "matroid_encoding_present": true,
+  "reason": "matroid-to-Q/Y recurrence not independently vendored",
+  "sage_available": false
+}
+{
+  "circuit_exists": false,
+  "expected_distance": 10,
+  "full_checker_ready": false,
+  "reason": "archive internal filename and exact-distance executable are not frozen in this scout package",
+  "stim_available": false
+}
+{
+  "circuit_exists": false,
+  "expected_distance": 10,
+  "full_checker_ready": false,
+  "reason": "archive internal filename and exact-distance executable are not frozen in this scout package",
+  "stim_available": false
+}
+{
+  "circuit_exists": false,
+  "expected_distance": 10,
+  "full_checker_ready": false,
+  "reason": "archive internal filename and exact-distance executable are not frozen in this scout package",
+  "stim_available": false
+}
+{
+  "circuit_exists": false,
+  "expected_distance": 10,
+  "full_checker_ready": false,
+  "reason": "archive internal filename and exact-distance executable are not frozen in this scout package",
+  "stim_available": false
+}
+{
+  "full_checker_ready": false,
+  "length_ok": true,
+  "matches_1e-10": true,
+  "max_abs_error": 0.0,
+  "n": 4,
+  "reason": "E_n is not independently constructed from Hermite roots"
+}
+PASS: remaining calibrations and all malformed-input checks

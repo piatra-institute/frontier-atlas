@@ -1,0 +1,16 @@
+{
+  "bits": "101010110",
+  "certification_rule": "accept only if exact spectral-radius upper bound < 100-digit target lower estimate",
+  "conjectured_minimum_float": 2.3268462696046543,
+  "counterexample_at_1e-10": false,
+  "gap_rho_minus_target": 4.440892098500626e-16,
+  "interval_width_float": 9.96556443059035e-41,
+  "n": 8,
+  "spectral_radius_exact_interval": [
+    "26724816542288174951/11485424237686699135",
+    "2032912791194712134631/873677310680312713384"
+  ],
+  "spectral_radius_float": 2.326846269604655,
+  "support_ok": true,
+  "target_100_digits": "2.326846269604654189003511266332439462457769093652506811604825482286073881768608569105889159919180054"
+}

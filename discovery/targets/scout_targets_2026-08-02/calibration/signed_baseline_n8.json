@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "baseline": [
+    {
+      "absolute_error": 4.440892098500626e-16,
+      "classes": 512,
+      "minimum": 2.326846269604655,
+      "n": 8,
+      "optimizer_bits": "101010110",
+      "pass_1e-9": true,
+      "target": 2.3268462696046543
+    }
+  ]
+}

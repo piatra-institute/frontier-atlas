@@ -1,0 +1,6 @@
+{
+  "full_checker_ready": false,
+  "reason": "exact eigenvalue recomputation not vendored",
+  "sage_available": false,
+  "schema_ok": true
+}

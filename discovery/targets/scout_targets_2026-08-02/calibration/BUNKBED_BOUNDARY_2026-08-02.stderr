@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/data/scout_targets_2026-08-02/checkers/check_arboreal_bunkbed.py", line 43, in <module>
+    print(json.dumps(check(json.loads(a.payload.read_text())),indent=2,sort_keys=True))
+                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/scout_targets_2026-08-02/checkers/check_arboreal_bunkbed.py", line 23, in check
+    raise ValueError('lambda must be positive')
+ValueError: lambda must be positive

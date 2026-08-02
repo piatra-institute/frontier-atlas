@@ -1,0 +1,7 @@
+{
+  "circuit_exists": false,
+  "expected_distance": 10,
+  "full_checker_ready": false,
+  "reason": "archive internal filename and exact-distance executable are not frozen in this scout package",
+  "stim_available": false
+}

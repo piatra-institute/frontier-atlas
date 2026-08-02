@@ -1,0 +1,10 @@
+{
+  "Z": 2,
+  "chi": 2,
+  "counterexample": false,
+  "lhs_2chi": 4,
+  "m": 6,
+  "n": 6,
+  "rhs_Z_plus_4": 6,
+  "triangle_free": true
+}

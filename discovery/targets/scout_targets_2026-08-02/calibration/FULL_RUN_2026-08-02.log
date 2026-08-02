@@ -1,0 +1,203 @@
+== python checkers/check_signed_circulant.py fixtures/signed_n8_optimizer.json --certify
+{
+  "bits": "101010110",
+  "certification_rule": "accept only if exact spectral-radius upper bound < 100-digit target lower estimate",
+  "conjectured_minimum_float": 2.3268462696046543,
+  "counterexample_at_1e-10": false,
+  "gap_rho_minus_target": 4.440892098500626e-16,
+  "interval_width_float": 9.96556443059035e-41,
+  "n": 8,
+  "spectral_radius_exact_interval": [
+    "26724816542288174951/11485424237686699135",
+    "2032912791194712134631/873677310680312713384"
+  ],
+  "spectral_radius_float": 2.326846269604655,
+  "support_ok": true,
+  "target_100_digits": "2.326846269604654189003511266332439462457769093652506811604825482286073881768608569105889159919180054"
+}
+== python checkers/check_signed_circulant.py fixtures/signed_n8_all_positive.json
+{
+  "bits": "000000000",
+  "conjectured_minimum_float": 2.3268462696046543,
+  "counterexample_at_1e-10": false,
+  "gap_rho_minus_target": 1.6731537303953452,
+  "n": 8,
+  "spectral_radius_float": 3.9999999999999996,
+  "support_ok": true
+}
+== python checkers/check_signed_circulant.py --baseline 8 10 12 14 16 18
+{
+  "all_pass": true,
+  "baseline": [
+    {
+      "absolute_error": 4.440892098500626e-16,
+      "classes": 512,
+      "minimum": 2.326846269604655,
+      "n": 8,
+      "optimizer_bits": "101010110",
+      "pass_1e-9": true,
+      "target": 2.3268462696046543
+    },
+    {
+      "absolute_error": 4.440892098500626e-16,
+      "classes": 2048,
+      "minimum": 2.4972120409568332,
+      "n": 10,
+      "optimizer_bits": "10101010110",
+      "pass_1e-9": true,
+      "target": 2.497212040956833
+    },
+    {
+      "absolute_error": 8.881784197001252e-16,
+      "classes": 8192,
+      "minimum": 2.594619588218836,
+      "n": 12,
+      "optimizer_bits": "1010101010110",
+      "pass_1e-9": true,
+      "target": 2.594619588218835
+    },
+    {
+      "absolute_error": 1.3322676295501878e-15,
+      "classes": 32768,
+      "minimum": 2.6549797248797047,
+      "n": 14,
+      "optimizer_bits": "101010101010110",
+      "pass_1e-9": true,
+      "target": 2.6549797248797034
+    },
+    {
+      "absolute_error": 2.220446049250313e-15,
+      "classes": 131072,
+      "minimum": 2.694804747545855,
+      "n": 16,
+      "optimizer_bits": "10101010101010110",
+      "pass_1e-9": true,
+      "target": 2.6948047475458528
+    },
+    {
+      "absolute_error": 8.881784197001252e-16,
+      "classes": 524288,
+      "minimum": 2.7224022714892406,
+      "n": 18,
+      "optimizer_bits": "1010101010101010110",
+      "pass_1e-9": true,
+      "target": 2.7224022714892397
+    }
+  ]
+}
+== python checkers/check_trianglefree_chi_z.py fixtures/triangle_c5.json
+{
+  "Z": 2,
+  "chi": 3,
+  "counterexample": false,
+  "lhs_2chi": 6,
+  "m": 5,
+  "n": 5,
+  "rhs_Z_plus_4": 6,
+  "triangle_free": true
+}
+== python checkers/check_trianglefree_chi_z.py fixtures/triangle_c6.json
+{
+  "Z": 2,
+  "chi": 2,
+  "counterexample": false,
+  "lhs_2chi": 4,
+  "m": 6,
+  "n": 6,
+  "rhs_Z_plus_4": 6,
+  "triangle_free": true
+}
+== python checkers/check_augmented_sombor.py fixtures/aso_t6_3.json
+{
+  "ASO_Turan": 27.712812921102042,
+  "ASO_graph": 27.712812921102042,
+  "difference": 0.0,
+  "equality_case": true,
+  "k": 3,
+  "m": 12,
+  "n": 6,
+  "strict_counterexample": false,
+  "valid_k_partition": true
+}
+== python checkers/check_augmented_sombor.py fixtures/aso_k321.json
+{
+  "ASO_Turan": 27.712812921102042,
+  "ASO_graph": 25.39814324956942,
+  "difference": -2.3146696715326236,
+  "equality_case": false,
+  "k": 3,
+  "m": 11,
+  "n": 6,
+  "strict_counterexample": false,
+  "valid_k_partition": true
+}
+== python checkers/check_total2coalition.py fixtures/total2_k5_equality.json
+{
+  "Delta": 4,
+  "bound": 4,
+  "counterexample_certificate": false,
+  "delta": 4,
+  "individual_total2dom": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "m": 10,
+  "n": 5,
+  "partition_size": 4,
+  "partners": [
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "valid_total2_coalition_partition": true
+}
+== python checkers/check_total2coalition.py fixtures/total2_k5_invalid_singletons.json
+{
+  "Delta": 4,
+  "bound": 4,
+  "counterexample_certificate": false,
+  "delta": 4,
+  "individual_total2dom": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "m": 10,
+  "n": 5,
+  "partition_size": 5,
+  "partners": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "valid_total2_coalition_partition": false
+}
+== python checkers/check_lc_condensation.py fixtures/lc_positive.json
+{
+  "condensed_LC_equivalent": true,
+  "condensed_orbit_size": 11,
+  "condition_G": true,
+  "condition_Gprime": true,
+  "counterexample": false,
+  "original_orbit_size": 11,
+  "originals_LC_equivalent": true,
+  "sequence_proves_original_equivalence": true
+}
+== python checkers/check_lc_condensation.py fixtures/lc_condition_nearmiss.json

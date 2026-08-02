@@ -1,0 +1,19 @@
+{
+  "sequence": "nSeWwSs",
+  "cut": "square",
+  "v1": [
+    0,
+    38
+  ],
+  "v2": [
+    28,
+    0
+  ],
+  "n": 538,
+  "k": 6,
+  "expected_distance": 10,
+  "routing_before": 198,
+  "routing_after": 67,
+  "n_total": 1137,
+  "circuit_file": "source_artifacts/UNRESOLVED_square.stim"
+}

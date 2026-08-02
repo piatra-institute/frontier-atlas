@@ -1,0 +1,17 @@
+{
+  "coefficients": [
+    1,
+    1,
+    2
+  ],
+  "log_concave": false,
+  "nonnegative": true,
+  "tests": [
+    {
+      "i": 1,
+      "lhs": 1,
+      "pass": false,
+      "rhs": 2
+    }
+  ]
+}

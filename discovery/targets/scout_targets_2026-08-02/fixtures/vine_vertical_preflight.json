@@ -1,0 +1,19 @@
+{
+  "sequence": "nSeWwSs",
+  "cut": "vertical parallelogram",
+  "v1": [
+    0,
+    28
+  ],
+  "v2": [
+    28,
+    28
+  ],
+  "n": 435,
+  "k": 6,
+  "expected_distance": 10,
+  "routing_before": 192,
+  "routing_after": 111,
+  "n_total": 975,
+  "circuit_file": "source_artifacts/UNRESOLVED_vertical.stim"
+}
