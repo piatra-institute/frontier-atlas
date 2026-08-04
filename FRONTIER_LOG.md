@@ -14,6 +14,44 @@ A Lean certificate proves a formal statement has a machine-checked proof. It doe
 
 ## External results (post-build)
 
+### 2026-08-03 - Fournier-Facio, "A torsion-free non-sofic group" (corroborates OpenAI result #3)
+
+- Source: arXiv:2608.02025, Francesco Fournier-Facio, posted 2026-08-03 (paper header renders 2026-08-04).
+- Abstract, verified here 2026-08-04: OpenAI announced a non-sofic group, the unit group of the
+  binary Leavitt algebra; this paper exhibits a different source of examples "relying on the same
+  technical criterion", including torsion-free groups.
+- Why it matters: an independent specialist reused the criterion within about two days and got a
+  strictly stronger object (torsion-free). Short of refereeing, this is the strongest available
+  evidence that OpenAI result #3 is real, and it is evidence of the criterion's reusability rather
+  than of the specific group. Upgrades #3 to community-engaged; still not refereed.
+- Not verified here: that the proof builds on Kun and Kun-Thom (search summary only, not checked
+  against the PDF); the MathOverflow explanation by Andreas Thom (q. 513866, mathoverflow.net is
+  not fetchable from this environment); the "page 78" locator. All second-hand via an r/math thread.
+- Atlas impact: none closed. The impact is methodological, see below.
+- Status: `read-abstract`.
+
+#### Method lessons (internal rescope, applied to `discovery/targets/SCOUT_PROMPT.md`)
+
+1. **A cheap checker is a lane label, not a value filter.** This witness is one line (a Leavitt
+   algebra over F_2, take its unit group) and its certificate is a long proof, so admission gate 5
+   as written would have rejected the problem. Cheap-checkability selects for what a machine can
+   verify, not for what a machine can discover. Corroborated internally: the 2026-08-02 scout
+   screened 43 candidates, admitted 1, and that one (signed circulants) proved true through n=24.
+2. **Do not blanket-avoid famous problems.** Non-soficity is a roughly 25-year Gromov-Weiss
+   problem and heavily watched. It fell because the community's candidate objects (Higman's group,
+   non-residually-finite central extensions of higher-rank lattices, HNN extensions) were the wrong
+   region, not because nobody looked. Fame is not the disqualifier; an exhausted construction space is.
+3. **The mechanism is cross-domain transfer.** Leavitt algebras and Thompson's group V (ring theory,
+   operator algebras) imported into geometric group theory. Field-siloed problem lists hide these.
+4. **Target what unlocks a list.** Non-soficity existence reopens Gottschalk surjunctivity,
+   Kervaire-Laudenbach, the determinant conjecture, and L^2-Betti approximation, all previously known
+   only for sofic groups. Score downstream unlock, not just isolated value.
+5. **It composed existing human machinery**, it did not invent from nothing. The fast-follower lane
+   (apply a fresh public criterion to object classes its authors did not test) is the part of this
+   pattern reachable at our budget; Fournier-Facio executed exactly that in about two days.
+- Adjacent and still open: a non-hyperlinear group (would give an explicit group-based counterexample
+  to Connes embedding; if finitely presented, consequences in quantum information).
+
 ### 2026-08-01 - OpenAI, "Ten Advances in Mathematics and Theoretical Computer Science"
 
 - Source: openai.com/index/ten-advances-in-mathematics + paper cdn.openai.com/pdf/ten-proofs-oai.pdf.
@@ -21,7 +59,9 @@ A Lean certificate proves a formal statement has a machine-checked proof. It doe
 - Results (asymptotic bounds, disproofs, constructions):
   1. Sphere packing: Cohn-Elkies LP exponent pinned, `limsup Δ_d^{1/d} ≤ √(e/2π)` (α*=0.6044, first improvement since 1978).
   2. Binary/spherical codes: exponential-factor upper-bound improvement, all parameters.
-  3. Non-sofic groups: explicit construction (existence).
+  3. Non-sofic groups: explicit construction (existence), the unit group of the binary Leavitt
+     algebra. Corroborated 2026-08-03 by an independent specialist reusing the criterion, see the
+     entry above; this is the only one of the ten with outside engagement recorded here.
   4. Connes rigidity: disproof.
   5. Permanent: `Ω(n²loglog n)` division-free circuits, `Ω(n⁴/log n)` arithmetic formulas.
   6. Quantum parallel repetition: exponential repetition for finite two-player entangled games.
