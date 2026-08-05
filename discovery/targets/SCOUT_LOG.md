@@ -41,6 +41,14 @@ exact enumeration or a structured construction is a genuine edge. Scout these; p
 statement, confirm open status, and state the concrete enumeration/construction edge before
 any deep run.
 
+**Superseded 2026-08-04. Kept as the dated record of what was believed on 2026-08-02, not
+deleted.** "One surviving genre" was too narrow. Two further genres are live: the
+fast-follower lane (apply a freshly published technical criterion to object classes its
+authors did not test), and famous problems whose construction space is wide and whose prior
+search has concentrated on a few candidate families. Cheap-checkability is a lane label, not
+a value filter. See `SCOUT_PROMPT.md` and the 2026-08-03 Fournier-Facio entry in
+`../../FRONTIER_LOG.md`.
+
 ## Scout runs
 
 ### 2026-08-02 - ChatGPT Pro (GPT-5.6 Pro), bundle `scout_targets_2026-08-02/`
