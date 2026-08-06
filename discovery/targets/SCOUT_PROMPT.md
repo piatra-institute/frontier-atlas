@@ -26,6 +26,25 @@ it says nothing about whether the problem is reachable or worth doing. Evidence:
 2026-08 (non-sofic groups) is Lane B and would have failed admission gate 5 outright. Do not
 discard a target because its certificate is a proof; label it Lane B and pin it anyway.
 
+**Lane B is the higher-yield lane. Weight the shortlist toward it.** Both AI-assisted advances
+recorded in `../../FRONTIER_LOG.md` for late 2026-07 and early 2026-08 are Lane B. Lin-Li
+(arXiv:2607.27199, sumset/difference-set exponent) is the sharper case: eight published agent
+systems, AlphaEvolve included, ground out values of 1.079-1.145 by enumerating explicit integer
+sets in Python, and the true answer was 2, realized by sets of size about `10^143`. Enumeration
+could not have reached it at any budget. The theorem came from relaxing the enumerable-witness
+evaluator and letting the agent propose constructions and arguments in natural language.
+
+**Ask the size question before admitting a Lane A card.** State on the card what size the
+extremal or witnessing object plausibly has, and why. If the honest answer is "unbounded" or
+"far beyond enumeration", the target is Lane B or not a target; do not admit it as Lane A because
+the checker is easy to write. A cheap checker on a search space that cannot contain the answer
+produces a plateau, not a result.
+
+**Pin the incumbent record yourself.** AlphaEvolve reported 1.1219 against a 1973 baseline of
+1.0598 while a 2013 human construction (Penman-Wells) stood at 1.1259 under the same
+normalization. Never take a baseline from the paper or system that is claiming to beat it: find
+the current best independently, and if you cannot, mark the card `needs-status`.
+
 Prefer sources **recent (roughly 6-24 months) with little follow-up**, mature enough to have a
 precise statement and an author who cares, but not ground down by years of negative search.
 

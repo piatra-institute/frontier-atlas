@@ -14,3 +14,5 @@
 **Checker (exact).** Compute A+A, A−A, and all h-fold sums exactly as integer/group sets; verify zero-sum-free sequences by exhaustive subset-sum. A refutation is a concrete set beating a stated bound, re-verified. Emit the explicit set.
 
 **Verification discipline.** Generator is not verifier: recompute every sumset and the Davenport witness with a second routine; confirm the {0,2,3,4,7,11,12,14} baseline. Cite each bound's source or mark "could not verify." Report candidates generated / broken / survived, with explicit sets.
+
+**Scope limit (added 2026-08-06).** Do not spend this pipeline on the sum-vs-difference *exponent* question, i.e. how large `log(|A+A|/|A|) / log(|A-A|/|A|)` can be. It is settled: Lin-Li, arXiv:2607.27199, 29 Jul 2026, prove the supremum is 2 by an explicit family whose smallest record-beating member has about `10^143` elements. Eight agent systems, AlphaEvolve included, plateaued at 1.079-1.145 by enumerating exactly the way this pipeline does. See `../../../FRONTIER_LOG.md`. The targets that remain genuinely small-set are minimal and extremal-density MSTD sets, Sidon/B_h sizes, and Davenport constants; keep the sweep on those.
