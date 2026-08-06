@@ -10,7 +10,7 @@ Living record of external results that resolve, advance, or sit adjacent to atla
 - `checked` - re-derived or re-ran a verifier here.
 - `community-confirmed` - independently refereed or accepted by the field.
 
-A Lean certificate proves a formal statement has a machine-checked proof. It does not prove the formal statement matches the informal claim, nor that the target was open. Those checks stay human: statement-match, was-it-open, refereeing.
+A Lean certificate proves a formal statement has a machine-checked proof. It does not prove the formal statement matches the informal claim, nor that the target was open. Those checks stay human: statement-match, was-it-open, refereeing. For what statement-match failure actually looks like in the wild, see the Ellenberg-Venkatesh-Westerland retraction in the Landesman-Levy entry below: two objects that carried the same name across two similar-looking settings were not the same object, and it took a year of expert attention to notice. No proof assistant checks that layer.
 
 ## External results (post-build)
 
@@ -181,6 +181,56 @@ this atlas hunts: maximize a scalar over finite integer sets, cheap exact checke
 - Method: agentic framework, arXiv:2603.15914 (Zimmer, Pelleriti, Roux, Pokutta, "The Agentic Researcher"). Per the authors' post, a stalled Lean formalization localized the counterexample; this mechanism is a narrative account, not stated in the abstract read here.
 - Atlas impact: not in the atlas (grepped). Now settled.
 - Status: `read-abstract` (WebFetch summary of both abstracts, small-model), not full-text. The post's "local open-weight models (DeepSeek V4 flash + GLM 5.2)" claim is uncorroborated by the framework abstract, which describes any frontier LLM via CLI agents.
+
+### 2025-10 - Landesman-Levy, "Homological stability for Hurwitz spaces and applications"
+
+Logged for the method lessons only. No AI involvement, no atlas overlap.
+
+- Source: arXiv:2503.03861, Aaron Landesman, Ishan Levy, v1 5 Mar 2025, v2 1 Oct 2025, primary
+  math.AT. Predecessor arXiv:2410.22210 (29 Oct 2024) handled the non-splitting case. Reached here
+  via a Scientific American piece dated 2026-08-05, "Mathematicians make a breakthrough on Gauss's
+  riddle, unsolved for 200 years".
+- Result: the homology of Hurwitz spaces for an arbitrary finite rack stabilizes; proves a
+  conjecture of Ellenberg-Venkatesh-Westerland. Applications to Malle's conjecture, the Picard rank
+  conjecture, and the Cohen-Lenstra-Martinet heuristics.
+- Scope, which the headline drops: everything is over the function field `F_q(t)` with `q`
+  sufficiently large depending on the data, plus coprimality conditions. Cohen-Lenstra for class
+  groups of quadratic *number* fields, which is what Gauss's riddle concerns, is untouched. The
+  paper says so directly, Remark 1.3.3: the moments can be computed only for finitely many `H` at
+  fixed `q`. Malle's conjecture is false in general (Klüners 2005); what Theorem 1.1.1 confirms is
+  Türkelli's modification, with upper and lower bounds carrying different constants because the
+  relevant limit provably does not exist over function fields. Wang (2025) shows Türkelli's fix
+  still fails over number fields. The Picard rank result is asymptotic in the branch-point count,
+  effective bound about `n > 2 * 2^C(d,2) * (2 + C(d,2))`.
+- Atlas impact: none. Checked, not assumed: zero hits across the repo for class group,
+  Cohen-Lenstra, Hurwitz, arithmetic statistics, function field, homological stability. Apparent
+  `Malle` hits are the substring in "smaller"; the single `Selmer` hit is Ernst Selmer in
+  `mathematics/19_postage_stamp_bases`, unrelated to Selmer groups. Same asymptotic-versus-
+  exact-finite disjointness already recorded for the OpenAI ten.
+- Status: `read-full` for the abstract, contents, and sections 1.1-1.4; not read beyond the
+  introduction, not re-derived. The Scientific American narrative below is journalism, single-
+  sourced, and not independently confirmed.
+
+#### Method lessons
+
+1. **Statement-match failure, documented.** EVW posted a proof in 2012; a year later a colleague
+   found that the zero in their 2009 paper and the zero in the 2012 paper were not the same object.
+   The two settings looked similar and the name was shared. They retracted. This is the clearest
+   available illustration of why a machine-checked certificate does not settle correctness: the
+   defect lived in the correspondence between two informal settings, which is the layer no proof
+   assistant inspects. Referenced from the status legend above.
+2. **The computation failing was the turning point.** Per the article: they built matrices, the
+   first row stabilized, the second wandered, and the computation collapsed under its own size
+   before showing stabilization. Progress came from hand-work on the partial data, which revealed a
+   strip-away pattern, then an ad hoc proof, then a month of reflection that produced the chain
+   complex making the argument conceptual. Landesman-Levy is not an AI result, so this is
+   corroboration of the direction rather than a second instance of the same mechanism, but it points
+   the same way as Lin-Li (arXiv:2607.27199) above: the plateau was computational and the resolution
+   was conceptual.
+3. **Two years from preprint to accepted.** The 2024 fix is described as "now widely accepted as
+   correct" in 2026, for watched work by strong authors. Entries in this log routinely sit at
+   `read-abstract` days after announcement. That gap is structural, not a backlog, and the status
+   legend should be read with it in mind.
 
 ## Build-time rescopes
 
